@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import './style.css';
 import { Col, Image, Row } from 'antd';
 import { CloseOutlined, MenuOutlined } from '@ant-design/icons';
-import Link from 'next/link';
-import ShowImage from '@/commonUl/ShowImage'; 
-export default function Header() {
+import Link from 'next/link'; 
+import SecondaryButton from '../SecondaryButton';
+export default function HeaderMain() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const toggleMenu = () => {
@@ -17,11 +17,11 @@ export default function Header() {
 				<div className="mainContainer">
 					<Row align="middle">
 						<Col xl={4} md={4} xs={12}>
-							{/* <Link href="/">
-								<ShowImage src="/images/logo.png" alt="logo Site" />
-							</Link> */}
+							<Link href="/"> 
+								<Image src="/images/logo.png" alt="Footer Logo"  width={215} height={76} />
+							</Link>
 						</Col>
-						<Col xl={14} md={20} xs={12}>
+						<Col xl={16} md={20} xs={12}>
 							<div className="menuBar">
 								<div className="barIcon">
 									<MenuOutlined onClick={() => toggleMenu()} />
@@ -30,30 +30,25 @@ export default function Header() {
 									<CloseOutlined onClick={() => toggleMenu()} />
 									<ul className="navBar">
 										<li className="active">
-											<Link href="/about-us">About us</Link>
+											<Link href="# ">Home</Link>
 										</li>
 										<li>
-											<Link href="/how-it-work">How it works</Link>
+											<Link href="#">Locations</Link>
 										</li>
 										<li>
-											<Link href="/articles">Articles </Link>
+											<Link href="#">Step Inside </Link>
 										</li>
 										<li>
-											<Link href="/testimonials">Testimonials </Link>
+											<Link href="#">Offers </Link>
 										</li>
-										<li>
-											<Link href="/po-tracker">PO Tracker </Link>
-										</li>
+										 
 									</ul>
 								</div>
 							</div>
 						</Col>
-						<Col xl={6} md={24} xs={24}>
-							<div className={`headerBtn  textEndFlex textEnd ${isMenuOpen ? 'open' : 'headBtnMobile'}`}>
-								<Link href="#" className="textButtonWhite">
-									Want to buy a car?
-								</Link>
-							 
+						<Col xl={4} md={24} xs={24} className='textEnd headerButton'>
+							<div className={`  ${isMenuOpen ? 'open' : 'headBtnMobile'}`}>
+							 <SecondaryButton label='Book Now' className='smallButton'  />							 
 							</div>
 						</Col>
 					</Row>

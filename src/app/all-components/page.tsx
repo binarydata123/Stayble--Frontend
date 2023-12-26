@@ -1,4 +1,4 @@
-import ButtonUI from '@/commonUl/ButtonUI' 
+import ButtonUI from '@/commonUl/PrimaryButton' 
 import LocationsCard from '@/commonUl/LocationsCard'
 import { Button, Col, Row } from 'antd'
 import React from 'react'

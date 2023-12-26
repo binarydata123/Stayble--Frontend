@@ -1,0 +1,141 @@
+ 
+.headerPart {
+    background: #fff0;
+    padding: 5px 0;
+    margin-bottom: -110px;
+}
+
+ul.navBar {
+    text-align: right;
+}
+
+ul.navBar li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px 8px;
+}
+
+ul.navBar li a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.headerButton button {
+    padding:15px 30px !important;
+}
+.headerBtn {
+    margin-top: 3px;
+}
+
+.textEndFlex {
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width:1199px) {
+    ul.navBar li a {
+        font-size: var(--extraSmallFontSize);
+        padding: 0 6px;
+    }
+
+    ul.navBar li {
+        padding: 2px 2px;
+    }
+
+    .textButtonWhite {
+        font-size: var(--extraSmallFontSize);
+    }
+
+    .loginButton {
+        font-size: var(--extraSmallFontSize);
+    }
+
+    ul.navBar {
+        text-align: right;
+    }
+
+
+}
+
+@media (max-width:1024px) {
+    .headBtnMobile {
+        display: none;
+    }
+
+    ul.navBar li a {
+        padding: 0 0;
+    }
+
+    ul.navBar {
+        text-align: right;
+    }
+
+    ul.navBar li {
+        display: block;
+    }
+
+    .mainContainer {
+        width: 95%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .menuBar {
+        position: relative;
+        text-align: right;
+    }
+
+    .headerPart {
+        padding: 15px 0;
+    }
+
+    .barIcon span.anticon.anticon-menu {
+        color: var(--colorWhite);
+        font-size: 25px;
+    }
+
+    .closeBar span.anticon.anticon-close {
+        color: var(--colorWhite);
+        font-size: 25px;
+        background: #000;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    ul.navBar li a {
+        font-size: 20px;
+        line-height: 30.24px;
+    }
+
+    ul.navBar li {
+        padding: 10px 0;
+    }
+
+    ul.navBar li.active a {
+        border-radius: var(--FontWeightMedium);
+    }
+
+    ul.navBar {
+        margin-top: 20px;
+    }
+ 
+ 
+
+  
+
+}
+
+@media (min-width: 1025px) {
+    .barIcon span.anticon.anticon-menu {
+        display: none;
+    }
+
+    .closeBar span.anticon.anticon-close {
+        display: none;
+    }
+
+}

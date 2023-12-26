@@ -1,8 +1,8 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { Space, Typography } from 'antd';
+import {  Typography } from 'antd';
 
-const { Text, Link } = Typography;
+const { Text, } = Typography;
 
 interface CustomTextProps {
 	size?: 'large' | 'medium' |  'small' | 'extraSmall';
