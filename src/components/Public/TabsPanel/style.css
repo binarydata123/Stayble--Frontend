@@ -1,0 +1,47 @@
+.footerPart {
+    display: none;
+}
+
+
+/*  */
+.TabsPanel .ant-tabs-nav-wrap .ant-tabs-nav-list {
+    background: #EEF3F6;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.TabsPanel .ant-tabs-tab.ant-tabs-tab-active {
+    border: 1px solid #0F43E6;
+
+    border-radius: 8px;
+    background: #0F43E6;
+}
+
+.TabsPanel .ant-tabs-tab {
+    font-size: 18px;
+    color: #1F354F;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 12px 28px !important;
+}
+
+.TabsPanel .ant-tabs-tab:hover {
+    color: #1F354F;
+}
+
+.TabsPanel .ant-tabs-nav::before {
+    border-bottom: 0 !important;
+}
+
+.TabsPanel .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fff !important;
+}
+
+.TabsPanel :where(.css-dev-only-do-not-override-1g853jt).ant-tabs .ant-tabs-ink-bar {
+    background: unset;
+    height: unset !important;
+}
+
+.TabsPanel :where(.css-dev-only-do-not-override-1g853jt).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+    margin: 0 0;
+}

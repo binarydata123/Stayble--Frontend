@@ -1,0 +1,37 @@
+.leftBack {
+  background: #0b1c30;
+}
+.headerDashboard {
+  padding: 20px;
+  background: #fff;
+}
+.progress {
+  border-radius: 0px 10px 10px 0px;
+  background: #0f43e6;
+  height: 5px;
+  width: 50%;
+}
+.stepProgress {
+  background: var(--neutral-gray, #eef3f6);
+  height: 5px;
+}
+.dashBody {
+  padding: 20px;
+}
+
+.fileUploadHeight .ant-upload.ant-upload-drag {
+  padding: 15% 0;
+  background: #fff;
+}
+.fileUploadHeight .ant-upload.ant-upload-drag {
+  padding: 15% 0;
+  background: #fff;
+}
+.spacingTop {
+  padding: 8% 0;
+}
+@media (max-width: 991px) {
+  .spacingTop {
+    padding: 5% 0;
+  }
+}

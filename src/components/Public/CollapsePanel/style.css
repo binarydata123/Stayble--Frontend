@@ -1,0 +1,57 @@
+.footerPart {
+  display: none;
+}
+
+/*  */
+
+.CollapsePanel .ant-collapse-expand-icon {
+  position: absolute;
+  right: 0;
+}
+
+.CollapsePanel span.ant-collapse-header-text {
+  padding-right: 15px;
+}
+
+.CollapsePanel span.ant-collapse-header-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #1f354f;
+}
+
+.CollapsePanel .ant-collapse-content-box p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1f354f;
+}
+
+.CollapsePanel .ant-collapse-item {
+  background: #fff0 !important;
+  padding: 20px;
+  border-radius: 8px !important;
+}
+.CollapsePanel svg.ant-collapse-arrow {
+  font-size: 22px !important;
+  position: relative;
+  left: 15px;
+  top: 5px;
+}
+.CollapsePanel .ant-collapse-item.ant-collapse-item-active {
+  background: #eef3f6 !important;
+}
+.CollapsePanel .ant-collapse-expand-icon::after {
+  content: '';
+  width: 1px;
+  height: 7px;
+  background: #1f354f;
+  position: absolute;
+  right: 7px;
+  z-index: 99;
+  top: 12px;
+}
+
+.CollapsePanel .ant-collapse-item.ant-collapse-item-active .ant-collapse-expand-icon::after {
+  display: none;
+}

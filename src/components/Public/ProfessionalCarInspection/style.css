@@ -1,0 +1,17 @@
+.imageCenter {
+  text-align: center;
+}
+
+.ProfessionalCarInspection {
+  background: var(--neutralGray);
+}
+
+.ant-image .ant-image-mask:hover {
+  opacity: 0;
+}
+
+@media (max-width: 767px) {
+  .paddingVerticalSuperLarge {
+    padding: 60px 0px;
+  }
+}

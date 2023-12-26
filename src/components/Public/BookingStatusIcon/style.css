@@ -1,0 +1,27 @@
+.accepted {
+    background-color: #06B502;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorStyle {
+    background-color: #06B502;
+}
+
+.colorStyle2 {
+    background-color: #D73131;
+}
+
+.colorStyle3 {
+    background-color: #0F43E6;
+}
+
+.colorStyle4 {
+    background-color: #EEF3F6;
+    color: #000;
+}

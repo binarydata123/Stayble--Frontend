@@ -1,0 +1,29 @@
+#beforeHappyCustomer span {
+  color: var(--primaryColor);
+}
+
+#beforeHappyCustomer .cardBoxThree {
+  background-color: var(--neutralGray);
+  border-radius: var(--smallBorderRadius);
+  text-align: left;
+  padding: 48px 40px;
+  margin-top: 15px;
+}
+
+#beforeHappyCustomer ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 4px 0px 0px;
+}
+.AvTerTitle img {
+  width: 56px;
+  height: 56px;
+  border-radius: 100px;
+  background: lightgray;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .paddingVerticalSuperLarge {
+    padding: 60px 0px;
+  }
+}

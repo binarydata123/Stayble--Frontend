@@ -1,0 +1,16 @@
+.primaryWrapper .ant-btn-primary {
+  border-radius: var(--tinyBorderRadius);
+  border: 1px solid var(--primaryColor);
+  background: var(--primaryColor);
+  color: #fff;
+  font-size: 18px;
+  font-weight: var(--FontWeightSmall);
+  line-height: 24px;
+  height: 56px !important;
+  padding: 16px 28px;
+}
+
+.primaryWrapper .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #fff;
+  background-color: #4b72eb;
+}

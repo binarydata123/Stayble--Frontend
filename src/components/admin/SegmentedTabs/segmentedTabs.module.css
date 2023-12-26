@@ -1,0 +1,21 @@
+.antSegmented .ant-segmented .ant-segmented-item-label {
+  padding: 14px 16px;
+}
+
+.antSegmented .ant-segmented.css-dev-only-do-not-override-2q8sxy {
+  background: #eef3f6;
+  width: 100%;
+  padding: 4px;
+}
+
+@media (max-width: 1200px) {
+  .antSegmented {
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 767px) {
+  .antSegmented .ant-segmented.css-dev-only-do-not-override-2q8sxy {
+    width: unset !important;
+  }
+}

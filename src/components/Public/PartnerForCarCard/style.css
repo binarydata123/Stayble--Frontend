@@ -1,0 +1,21 @@
+.partnerForCarCardTop {
+  margin-top: 70px;
+}
+
+.partnerForCarCardTitle {
+  padding: 0px 30px 0px 0px;
+}
+
+@media (max-width: 767px) {
+  .partnerForCarCardTitle img {
+    padding-top: 40px;
+  }
+
+  .partnerForCarCardTop {
+    margin-top: 0px;
+  }
+
+  .paddingVerticalSuperLarge {
+    padding: 70px 0px;
+  }
+}

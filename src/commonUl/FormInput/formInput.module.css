@@ -1,0 +1,17 @@
+.inputWithIcon input.ant-input {
+    width: 100%;
+    display: block;
+    font-size: 16px !important;
+    line-height: 17.64px;
+    color: var(--neutralColor);
+    font-weight: 400;
+    text-align: left;
+    border-radius: 8px;
+    background: transparent;
+    /* padding: 16px 20px; */
+    border: none;
+}
+
+.inputWithIcon input {
+    background: transparent;
+}

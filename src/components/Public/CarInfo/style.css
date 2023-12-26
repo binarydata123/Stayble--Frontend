@@ -1,0 +1,54 @@
+.formPart {
+    box-shadow: 0px 15px 86px 0px var(--neutral-haf);
+    background: var(--colorWhite);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.formPart {
+    box-shadow: 0px 15px 86px 0px var(--neutral-haf);
+    background: var(--colorWhite);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.form .formPart {
+    width: 330px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.labelText {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    line-height: 17.64px;
+    color: var(--neutralColor);
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.iconRocket {
+    margin-left: -8px;
+    padding-right: 6px;
+}
+
+.EvaluateCar {
+    background: var(--primaryYellow);
+    padding: 16px 28px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--neutralColor);
+}
+
+@media (max-width: 355px) {
+    .textLink {
+        padding-right: 3px;
+    }
+}

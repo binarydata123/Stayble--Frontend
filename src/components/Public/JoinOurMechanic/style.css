@@ -1,0 +1,84 @@
+/* Join Our Mechanic Team and Fuel Your Career! ----- css */
+
+
+.spanColor {
+    color: #0F43E6;
+}
+
+.ContentPart {
+    padding: 55px 20px;
+}
+
+.ContentPart h2 {
+    margin: 0;
+}
+
+.ContentPart p {
+    margin: 10px 0;
+}
+
+.smallFontSize {
+    font-size: 20px;
+    line-height: 26px;
+    color: #1F354F;
+}
+
+.cardUser {
+    background: #EEF3F6;
+    padding: 16px 20px;
+    border-radius: 16px;
+}
+
+.cardUser img {
+    border-radius: 100px;
+}
+
+.nameUser {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #1F354F;
+    margin: 0 !important;
+}
+
+
+
+.ButtonUI {
+    border: 1px solid #0F43E6;
+    background: #0F43E6;
+    padding: 18px 28px;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.topMargin20 {
+    margin-top: 20px;
+}
+
+
+@media (max-width:1199px) {
+
+    .ContentPart {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .ContentPart {
+        padding: 25px 15px;
+    }
+
+    .ButtonUI {
+        font-size: 16px;
+        line-height: 20.16px;
+    }
+
+    .TabCenter {
+        text-align: center;
+    }
+
+}

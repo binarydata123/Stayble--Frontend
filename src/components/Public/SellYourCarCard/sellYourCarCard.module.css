@@ -1,0 +1,11 @@
+.cardBoxThree {
+  background-color: var(--neutralGray);
+  border-radius: var(--smallBorderRadius);
+  text-align: center;
+  padding: 48px 20px;
+  margin-top: 15px;
+}
+
+.cardBoxThree h5 {
+  margin: 10px 0 6px 0 !important;
+}
