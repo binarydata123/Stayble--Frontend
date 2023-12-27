@@ -56,9 +56,17 @@ span b {
 .w100 {
     width: 100% !important;
 } 
+
+
+.formPart {
+    border-radius: 10px;
+    border: 1px solid #e7e7f245; 
+}
 @media (max-width: 767px) {
     .mainContainer {
       max-width: 90% !important;
     }
-    .mNone{display: none !important;}
+    .mobileViewNone{display: none !important;}
 }
+
+

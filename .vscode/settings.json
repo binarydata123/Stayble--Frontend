@@ -1,8 +1,17 @@
 {
-    "cSpell.words": [
-        "antd",
-        "Liks",
-        "Macomb",
-        "Numscroller"
-    ]
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "deepscan.ignoreConfirmWarning": true
 }

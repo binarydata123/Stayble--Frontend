@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import { Select } from 'antd';
-import styles from './selectBox.module.css';
+import styles from './selectBoxFild.module.css';
 
 const onChange = (value: string) => {
 	console.log(`selected ${value}`);
@@ -18,6 +18,7 @@ const onChange = (value: string) => {
 export default function SelectBoxFiled() {
 	return (
 		<>
+    <div>
 			<Select
     showSearch
     placeholder="Select a person"
@@ -25,6 +26,7 @@ export default function SelectBoxFiled() {
     onChange={onChange}
     onSearch={onSearch}
     filterOption={filterOption}
+    className={styles.selectFiled}
     options={[
       {
         value: 'jack',
@@ -40,6 +42,8 @@ export default function SelectBoxFiled() {
       },
     ]}
   />
+  </div>
+
 		</>
 	);
 }

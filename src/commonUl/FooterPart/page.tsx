@@ -20,7 +20,7 @@ export default function FooterPart() {
 	<div className={styles.followUs} >
 	 <div className="mainContainer">
 	   <Row  align="middle" gutter={16}>
-        <Col lg={7} md={7} sm={7} xs={24}  className='mNone'>
+        <Col lg={7} md={7} sm={7} xs={24}  className='mobileViewNone'>
 		  <Titles level={4} color='light'>Follow Us</Titles>
 		</Col>
 		<Col lg={10} md={10} sm={10} xs={24}>
@@ -48,7 +48,7 @@ export default function FooterPart() {
 	<div className={styles.ftPart} >
 	 <div className="mainContainer">
 	   <Row  gutter={40}>
-        <Col lg={7} md={7} sm={7} xs={24}  className={`mNone ${styles.borderFooter}`}  >
+        <Col lg={7} md={7} sm={7} xs={24}  className={`mobileViewNone ${styles.borderFooter}`}  >
 			<div className={styles.columGap}>
 			<Titles level={4} color='light'>Solutions</Titles>
 				<ul className={styles.footerLiks}  >

@@ -7,7 +7,7 @@ import styles from './numscroller.module.css';
 export default function Numscroller() {
 	return (
 		<>
-			 <Row className='mNone'>
+			 <Row className='mobileViewNone'>
               <Col lg={12} md={12} sm={12} xs={12} >
                 <div className={`${styles.numbersGap} ${styles.bottomBorder}`}>
                 <Titles level={2} color='primaryColor'>  21M+</Titles>
