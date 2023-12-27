@@ -1,141 +1,155 @@
- 
 .headerPart {
-    background: #fff0;
-    padding: 5px 0;
-    margin-bottom: -110px;
+  background: #fff0;
+  padding: 5px 0;
+  margin-bottom: -110px;
 }
 
 ul.navBar {
-    text-align: right;
+  text-align: right;
 }
 
 ul.navBar li {
-    list-style: none;
-    display: inline-block;
-    padding: 3px 8px;
+  list-style: none;
+  display: inline-block;
+  padding: 3px 8px;
 }
 
 ul.navBar li a {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 400;
-    padding-left: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 30px;
 }
 .headerButton button {
-    padding:15px 30px !important;
+  padding: 15px 30px !important;
 }
 .headerBtn {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 .textEndFlex {
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1199px) {
+  ul.navBar li a {
+    font-size: var(--extraSmallFontSize);
+    padding: 0 6px;
+  }
+
+  ul.navBar li {
+    padding: 2px 2px;
+  }
+
+  .textButtonWhite {
+    font-size: var(--extraSmallFontSize);
+  }
+
+  .loginButton {
+    font-size: var(--extraSmallFontSize);
+  }
+
+  ul.navBar {
     text-align: right;
-    display: flex;
-    align-items: center;
+  }
 }
 
+@media (max-width: 1024px) {
+  .headBtnMobile {
+    display: none;
+  }
 
-@media (max-width:1199px) {
-    ul.navBar li a {
-        font-size: var(--extraSmallFontSize);
-        padding: 0 6px;
-    }
+  ul.navBar li a {
+    padding: 0 0;
+  }
 
-    ul.navBar li {
-        padding: 2px 2px;
-    }
+  ul.navBar {
+    text-align: right;
+  }
 
-    .textButtonWhite {
-        font-size: var(--extraSmallFontSize);
-    }
+  ul.navBar li {
+    display: block;
+  }
 
-    .loginButton {
-        font-size: var(--extraSmallFontSize);
-    }
+  .mainContainer {
+    width: 95%;
+    padding-right: 0;
+    padding-left: 0;
+  }
 
-    ul.navBar {
-        text-align: right;
-    }
+  .menuBar {
+    position: relative;
+    text-align: right;
+  }
 
+  .headerPart {
+    padding: 15px 0;
+  }
 
-}
+  .barIcon span.anticon.anticon-menu {
+    color: var(--colorWhite);
+    font-size: 25px;
+  }
 
-@media (max-width:1024px) {
-    .headBtnMobile {
-        display: none;
-    }
+  .closeBar span.anticon.anticon-close {
+    color: #000;
+    font-size: 22px;
+    background: #ffe70f;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 6px;
+  }
+  .closeBar.open {
+    top: 0;
+  }
+  .open {
+    position: absolute;
+    right: 0;
+    top: 225px;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(35px);
+    backdrop-filter: blur(35px);
+    padding: 17px;
+    width: 90%;
+  }
+  .logoMain {
+    margin: 0 0 -60px 0;
+  }
+  ul.navBar {
+    padding: 0;
+  }
+  ul.navBar li a {
+    font-size: 20px;
+    line-height: 30.24px;
+  }
 
-    ul.navBar li a {
-        padding: 0 0;
-    }
+  ul.navBar li {
+    padding: 20px 0 0 0;
+  }
 
-    ul.navBar {
-        text-align: right;
-    }
+  ul.navBar li.active a {
+    border-radius: var(--FontWeightMedium);
+  }
 
-    ul.navBar li {
-        display: block;
-    }
-
-    .mainContainer {
-        width: 95%;
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-    .menuBar {
-        position: relative;
-        text-align: right;
-    }
-
-    .headerPart {
-        padding: 15px 0;
-    }
-
-    .barIcon span.anticon.anticon-menu {
-        color: var(--colorWhite);
-        font-size: 25px;
-    }
-
-    .closeBar span.anticon.anticon-close {
-        color: var(--colorWhite);
-        font-size: 25px;
-        background: #000;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    ul.navBar li a {
-        font-size: 20px;
-        line-height: 30.24px;
-    }
-
-    ul.navBar li {
-        padding: 10px 0;
-    }
-
-    ul.navBar li.active a {
-        border-radius: var(--FontWeightMedium);
-    }
-
-    ul.navBar {
-        margin-top: 20px;
-    }
- 
- 
-
-  
-
+  ul.navBar {
+    margin-top: 20px;
+  }
+  .logoMain img {
+    width: 140px !important;
+    height: 53px !important;
+  }
 }
 
 @media (min-width: 1025px) {
-    .barIcon span.anticon.anticon-menu {
-        display: none;
-    }
+  .barIcon span.anticon.anticon-menu {
+    display: none;
+  }
 
-    .closeBar span.anticon.anticon-close {
-        display: none;
-    }
-
+  .closeBar span.anticon.anticon-close {
+    display: none;
+  }
 }
