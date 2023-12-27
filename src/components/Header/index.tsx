@@ -15,7 +15,7 @@ export default function Header() {
       <div className="headerPart">
         <div className="mainContainer">
           <Row align="middle">
-            <Col xl={4} md={4} xs={12}>
+            <Col xl={4} md={4} xs={24} className="logoMain">
               <Link href="/">
                 <Image
                   src="/images/Logo.png"
@@ -25,7 +25,7 @@ export default function Header() {
                 />
               </Link>
             </Col>
-            <Col xl={16} md={20} xs={12}>
+            <Col xl={16} md={20} xs={24}>
               <div className="menuBar">
                 <div className="barIcon">
                   <MenuOutlined onClick={() => toggleMenu()} />

@@ -4,22 +4,18 @@
   background-repeat: no-repeat;
   padding: 200px 0 0 0;
 }
-
 .stayConnect {
   background: url(/images/Book_online.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
 }
-
 .freedom {
-  background: #012A59;
+  background: #012a59;
 }
-
 .faqPart {
-  background: #F4FAFF;
+  background: #f4faff;
 }
-
 .faqPart .ant-collapse {
   background: #fff0 !important;
 }
@@ -34,7 +30,16 @@
   margin: 0 auto;
   margin-top: 140px;
 }
-
 .bookYour {
   font-weight: 700 !important;
+}
+
+@media (max-width: 991px) {
+  .bookYourVacation {
+    padding: 15px;
+    margin-top: 55px;
+  }
+  .bannerPart {
+    padding: 150px 0 0 0;
+  }
 }

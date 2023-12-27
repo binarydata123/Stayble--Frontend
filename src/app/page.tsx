@@ -7,8 +7,6 @@ import LocationsCard from "@/components/Public/LocationsCard";
 import SecondaryButton from "@/commonUl/SecondaryButton";
 import styles from "./homePage.module.css";
 import CollapsePanel from "@/commonUl/CollapsePanel";
-import SelectBoxFiled from "@/commonUl/SelectBoxFiled";
-import { RiHomeLine } from "react-icons/ri";
 import ViewAll from "@/components/Public/ViewAll";
 import Numscroller from "@/components/Public/Numberscroller";
 import EmailFiled from "@/components/Public/emailFiled/page";
@@ -22,13 +20,16 @@ export default function Home() {
       <div className={styles.bannerPart}>
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
-            <Col lg={10} md={10} sm={10} xs={10}>
+            <Col xl={10} md={24} sm={24} xs={24} className="tabViewCenter">
               <Titles level={1} color="light">
-                {" "}
                 Flexible. Affordable. <span className="yellowText">Home</span>
               </Titles>
               <br />
-              <Titles level={5} color="light" className="weight400">
+              <Titles
+                level={5}
+                color="light"
+                className="weight400 mobileViewNone"
+              >
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </Titles>
@@ -44,25 +45,8 @@ export default function Home() {
                 <div className="formPart">
                   <Row align="middle" gutter={16}>
                     <Col lg={9} md={9} sm={9} xs={24}>
-                      <Row align="middle" gutter={16}>
-                        <Col lg={3} md={3} sm={3} xs={3}>
-                          <Titles level={4} color="light">
-                            <RiHomeLine />
-                          </Titles>
-                        </Col>
-                        <Col lg={21} md={21} sm={21} xs={21}>
-                          <SelectBoxFiled />
-                        </Col>
-                      </Row>
-                    </Col>
-                    <Col lg={4} md={4} sm={4} xs={12}>
-                      ax
-                    </Col>
-                    <Col lg={3} md={3} sm={3} xs={12}>
-                      ax
-                    </Col>
-                    <Col lg={8} md={8} sm={8} xs={24}>
-                      axa
+                      {" "}
+                      xaxax
                     </Col>
                   </Row>
                 </div>
@@ -81,13 +65,13 @@ export default function Home() {
       <div className="exploreLocations mainGap">
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
-            <Col lg={18} md={18} sm={18} xs={18}>
+            <Col lg={18} md={18} sm={18} xs={16}>
               <Titles level={2} color="neutralColor">
                 {" "}
                 Explore Our Locations
               </Titles>
             </Col>
-            <Col lg={6} md={6} sm={6} xs={6} className="textEnd">
+            <Col lg={6} md={6} sm={6} xs={8} className="textEnd">
               <ViewAll />
             </Col>
           </Row>
