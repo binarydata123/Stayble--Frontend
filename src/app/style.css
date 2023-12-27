@@ -33,6 +33,10 @@ span b {
 .mainGap {
   padding: 60px 0;
 }
+.largeGap {
+  padding: 120px 0;
+}
+
 .img100 {
   width: 100%;
   height: unset;
