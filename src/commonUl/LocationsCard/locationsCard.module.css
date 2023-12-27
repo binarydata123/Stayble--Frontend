@@ -1,0 +1,7 @@
+/* locationsCard css */
+.locationsCard img {
+    width: 100%;
+    height: unset;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}

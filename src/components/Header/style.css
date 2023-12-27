@@ -1,0 +1,188 @@
+.mainContainer {
+    margin: 0 auto;
+}
+
+.textButtonWhite {
+    font-size: var(--extraFontSize);
+    color: var(--colorWhite);
+    line-height: 20.16px;
+    padding: 10px 18px;
+    font-weight: var(--FontWeightSmall);
+    margin-right: 10px;
+}
+
+.textButtonWhite:hover {
+    color: var(--colorWhite);
+}
+
+.loginButton {
+    font-size: var(--extraFontSize);
+    color: var(--primaryColor);
+    line-height: 20.16px;
+    padding: 10px 18px;
+    border-radius: var(--FontWeightMedium);
+    background: var(--colorWhite);
+    border-radius: var(--tinyBorderRadius);
+}
+
+.loginButton:hover {
+    color: var(--primaryColor);
+}
+
+.headerPart {
+    background: var(--primaryColor);
+    padding: 25px 0;
+}
+
+ul.navBar {
+    text-align: center;
+}
+
+ul.navBar li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px 8px;
+}
+
+ul.navBar li a {
+    font-size: var(--extraFontSize);
+    color: var(--colorWhite);
+    line-height: 20.16px;
+    padding: 0 10px;
+}
+
+.headerBtn {
+    margin-top: 3px;
+}
+
+.textEndFlex {
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width:1199px) {
+    ul.navBar li a {
+        font-size: var(--extraSmallFontSize);
+        padding: 0 6px;
+    }
+
+    ul.navBar li {
+        padding: 2px 2px;
+    }
+
+    .textButtonWhite {
+        font-size: var(--extraSmallFontSize);
+    }
+
+    .loginButton {
+        font-size: var(--extraSmallFontSize);
+    }
+
+    ul.navBar {
+        text-align: right;
+    }
+
+
+}
+
+@media (max-width:1024px) {
+    .headBtnMobile {
+        display: none;
+    }
+
+    ul.navBar li a {
+        padding: 0 0;
+    }
+
+    ul.navBar {
+        text-align: right;
+    }
+
+    ul.navBar li {
+        display: block;
+    }
+
+    .mainContainer {
+        width: 95%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .menuBar {
+        position: relative;
+        text-align: right;
+    }
+
+    .headerPart {
+        padding: 15px 0;
+    }
+
+    .barIcon span.anticon.anticon-menu {
+        color: var(--colorWhite);
+        font-size: 25px;
+    }
+
+    .closeBar span.anticon.anticon-close {
+        color: var(--colorWhite);
+        font-size: 25px;
+        background: var(--primaryColor);
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    ul.navBar li a {
+        font-size: 24px;
+        line-height: 30.24px;
+    }
+
+    ul.navBar li {
+        padding: 10px 0;
+    }
+
+    ul.navBar li.active a {
+        border-radius: var(--FontWeightMedium);
+    }
+
+    ul.navBar {
+        margin-top: 20px;
+    }
+
+    .headerBtn .textButtonWhite {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        background: #0B1C3033;
+        padding: 20px 18px;
+        border-radius: var(--tinyBorderRadius);
+        font-size: 16px;
+    }
+
+    .headerBtn a.loginButton {
+        display: block;
+        width: 90%;
+        margin: 15px auto;
+        text-align: center;
+        font-size: 16px;
+        padding: 20px 18px;
+    }
+
+    .headerBtn {
+        margin-top: 90px;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .barIcon span.anticon.anticon-menu {
+        display: none;
+    }
+
+    .closeBar span.anticon.anticon-close {
+        display: none;
+    }
+
+}

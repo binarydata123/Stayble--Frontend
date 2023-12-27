@@ -1,0 +1,15 @@
+.textBoxCard {
+    position: absolute;
+    bottom: 43px;
+    left: 20px;
+}
+ 
+.locationsCard {
+    position: relative;
+} 
+.locationsCard img {
+    width: 100%;
+    height: unset;
+    border-radius: 16px;
+    margin-bottom: 10px;
+} 
