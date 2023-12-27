@@ -15,17 +15,16 @@ export default function CardLocations() {
           width={800}
           height={800}
         />
-        <br />
+        <div className="marginBottomOne"></div>
         <div className={styles.textBoxCard}>
           <ParaText size="large" color="light">
             <b>Orlando</b>
           </ParaText>
-          <br />
           <Titles level={4} color="light">
             {" "}
             Orlando Awaits
           </Titles>
-          <br />
+          <div className="marginBottomOne"></div>
           <SecondaryButton label="Book Now" className="smallButton" />
         </div>
       </div>

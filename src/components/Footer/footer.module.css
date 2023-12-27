@@ -1,49 +1,58 @@
- .footerPart{
-    background: var(--Main_Blue_Color, #012A59);
- }
- .followUs {
-    padding: 40px 0;
-    border-bottom: solid 1px #103b6b;
+.footerPart {
+  background: var(--Main_Blue_Color, #012a59);
 }
-.ftPart{
-    border-bottom: solid 1px #103b6b;
+.followUs {
+  padding: 40px 0;
+  border-bottom: solid 1px #103b6b;
+}
+.ftPart {
+  border-bottom: solid 1px #103b6b;
 }
 .columGap {
-    padding: 50px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 ul.footerSocialMediaLiks {
-    margin:10px 0 0 0;
-    padding: 0;
+  margin: 10px 0 0 0;
+  padding: 0;
 }
 ul.footerSocialMediaLiks li {
-    list-style: none;
-    display: inline;
-    margin: 0 30px 0 0;
+  list-style: none;
+  display: inline;
+  margin: 0 30px 0 0;
 }
 ul.footerSocialMediaLiks li a {
-    color: #FFE70F;
-    font-size: 30px;
+  color: #ffe70f;
+  font-size: 30px;
 }
 
- 
 .footerLiks {
-    padding: 0;
-    margin: 25px 0 0 0;
+  padding: 0;
+  margin: 25px 0 0 0;
 }
 .footerLiks a {
-    color: #D9D9D9;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 36px;
+  color: #d9d9d9;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 36px;
 }
 .footerLiks svg {
-    margin-right: 25px;
-    position: relative;
-    top: 5px;
-    font-size: 22px;
-    color: #fff;
+  margin-right: 25px;
+  position: relative;
+  top: 5px;
+  font-size: 22px;
+  color: #fff;
 }
-.borderFooter { 
-    border-right: solid 1px #103b6b;
-    
+.borderFooter {
+  border-right: solid 1px #103b6b;
+}
+@media (max-width: 991px) {
+  .columGap {
+    padding: 30px 0 30px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .borderFooter {
+    border-right: solid 0px #103b6b;
+  }
 }

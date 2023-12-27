@@ -1,0 +1,22 @@
+.bannerPartAbout {
+  background: url(/images/Book_online.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+
+.faqPart {
+  background: #f4faff;
+}
+.faqPart .ant-collapse {
+  background: #fff0 !important;
+}
+.exploreLocations {
+  background: rgba(0, 145, 247, 0.03);
+}
+
+@media (max-width: 991px) {
+  .bannerPart {
+    padding: 150px 0 0 0;
+  }
+}

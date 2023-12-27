@@ -25,9 +25,11 @@ export default function Footer() {
                 <ParaText size="small" color="light">
                   Phone
                 </ParaText>
+                <div className="tabMarginTopOne"></div>
                 <Titles level={4} color="light">
                   001-123 456 7890
                 </Titles>
+                <div className="tabMarginTopTwo"></div>
               </Col>
               <Col lg={7} md={7} sm={7} xs={24}>
                 <ParaText size="small" color="light">
@@ -58,13 +60,7 @@ export default function Footer() {
         <div className={styles.ftPart}>
           <div className="mainContainer">
             <Row gutter={40}>
-              <Col
-                lg={7}
-                md={7}
-                sm={7}
-                xs={24}
-                className={`mobileViewNone ${styles.borderFooter}`}
-              >
+              <Col lg={7} md={7} sm={7} xs={24} className={styles.borderFooter}>
                 <div className={styles.columGap}>
                   <Titles level={4} color="light">
                     Solutions
@@ -201,15 +197,21 @@ export default function Footer() {
         <div className={styles.ftPart}>
           <div className="mainContainer smallGap">
             <Row align="middle" gutter={16}>
-              <Col lg={12} md={12} sm={12} xs={12}>
+              <Col lg={12} md={12} sm={12} xs={24}>
                 <ParaText size="extraSmall" color="light">
                   ©2023 All Rights Reserved
                 </ParaText>
                 <br />
               </Col>
-              <Col lg={12} md={12} sm={12} xs={12} className="textEnd">
+              <Col
+                lg={12}
+                md={12}
+                sm={12}
+                xs={24}
+                className="mobileMarginTopOne textEnd MobileViewLeft"
+              >
                 <ParaText size="extraSmall" color="light">
-                  ©2023 All Rights Reserved
+                  Privacy Policy | Site Map
                 </ParaText>
                 <br />
               </Col>
