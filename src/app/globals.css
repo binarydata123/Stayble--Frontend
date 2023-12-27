@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
-*{
+
+* {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -15,9 +16,21 @@ body {
 img {
   max-width: 100%;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  margin-top: 0  !important;
-  margin-bottom: 0 !important; 
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   line-height: 1.2;
 }
 
@@ -32,7 +45,7 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
-:root {   
+:root {
   --primaryColor: #2F80ED;
   --neutralColor: #012A59;
   --primaryYellow: #FFE70F;
@@ -44,12 +57,12 @@ a {
   --largeFontSize: 80px;
   --mediumFontSize: 60px;
   --smallFontSize: 48px;
-  --smallSubFontSize:39px;
+  --smallSubFontSize: 39px;
   --subFontSize: 20px;
   --lightSmallFontSize: 18px;
   --lightFontSize: 15px;
-  --extraFontSize: 16px; 
- 
+  --extraFontSize: 16px;
+
   /* font-weight */
   --FontWeightLarger: 900;
   --FontWeightExtra: 800;
@@ -64,5 +77,5 @@ a {
   --smallBorderRadius: 16px;
   --extraSmallBorderRadius: 8px;
   --tinyBorderRadius: 6px;
- 
-} 
+
+}

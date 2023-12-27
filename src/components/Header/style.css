@@ -1,41 +1,12 @@
-.mainContainer {
-    margin: 0 auto;
-}
-
-.textButtonWhite {
-    font-size: var(--extraFontSize);
-    color: var(--colorWhite);
-    line-height: 20.16px;
-    padding: 10px 18px;
-    font-weight: var(--FontWeightSmall);
-    margin-right: 10px;
-}
-
-.textButtonWhite:hover {
-    color: var(--colorWhite);
-}
-
-.loginButton {
-    font-size: var(--extraFontSize);
-    color: var(--primaryColor);
-    line-height: 20.16px;
-    padding: 10px 18px;
-    border-radius: var(--FontWeightMedium);
-    background: var(--colorWhite);
-    border-radius: var(--tinyBorderRadius);
-}
-
-.loginButton:hover {
-    color: var(--primaryColor);
-}
-
+ 
 .headerPart {
-    background: var(--primaryColor);
-    padding: 25px 0;
+    background: #fff0;
+    padding: 5px 0;
+    margin-bottom: -110px;
 }
 
 ul.navBar {
-    text-align: center;
+    text-align: right;
 }
 
 ul.navBar li {
@@ -45,12 +16,14 @@ ul.navBar li {
 }
 
 ul.navBar li a {
-    font-size: var(--extraFontSize);
-    color: var(--colorWhite);
-    line-height: 20.16px;
-    padding: 0 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
 }
-
+.headerButton button {
+    padding:15px 30px !important;
+}
 .headerBtn {
     margin-top: 3px;
 }
@@ -127,14 +100,14 @@ ul.navBar li a {
     .closeBar span.anticon.anticon-close {
         color: var(--colorWhite);
         font-size: 25px;
-        background: var(--primaryColor);
+        background: #000;
         position: absolute;
         right: 0;
         top: 0;
     }
 
     ul.navBar li a {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 30.24px;
     }
 
@@ -149,30 +122,10 @@ ul.navBar li a {
     ul.navBar {
         margin-top: 20px;
     }
+ 
+ 
 
-    .headerBtn .textButtonWhite {
-        display: block;
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-        background: #0B1C3033;
-        padding: 20px 18px;
-        border-radius: var(--tinyBorderRadius);
-        font-size: 16px;
-    }
-
-    .headerBtn a.loginButton {
-        display: block;
-        width: 90%;
-        margin: 15px auto;
-        text-align: center;
-        font-size: 16px;
-        padding: 20px 18px;
-    }
-
-    .headerBtn {
-        margin-top: 90px;
-    }
+  
 
 }
 
