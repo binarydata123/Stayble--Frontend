@@ -12,7 +12,7 @@ import { BsLinkedin } from "react-icons/bs";
 export default function Footer() {
   return (
     <>
-      <div className={styles.footerPart}>
+      <div className={styles.footerPart} id="footerPart">
         <div className={styles.followUs}>
           <div className="mainContainer">
             <Row align="middle" gutter={16}>

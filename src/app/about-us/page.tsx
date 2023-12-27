@@ -1,3 +1,5 @@
+
+import LocationsCard from "@/commonUl/LocationsCard";
 import { Col, Image, Row } from "antd";
 import React from "react";
 import styles from "./aboutPage.module.css";

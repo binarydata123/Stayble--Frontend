@@ -1,13 +1,11 @@
 .primaryWrapper button {
-	border-radius: 10px ;
-    background: #FFE70F ;
-    height: unset ;
-    padding: 15px 20px ;
-    border: none ;
-    color: #000 ; 
-    font-weight: 600 ; 
-  }
-/* .primaryWrapper .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
-	color: #fff;
-	background-color: #4b72eb;
-  } */
+  border-radius: 10px;
+  background: #FFE70F;
+  height: unset;
+  padding: 15px 20px;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}

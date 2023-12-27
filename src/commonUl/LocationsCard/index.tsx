@@ -1,7 +1,7 @@
 import React from "react";
-import ParaText from "../../../commonUl/ParaText";
+import ParaText from "../ParaText";
 import Image from "next/image";
-import Titles from "../../../commonUl/Titles";
+import Titles from "../Titles";
 import styles from "./locationsCard.module.css";
 
 export default function LocationsCard() {

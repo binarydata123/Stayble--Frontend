@@ -1,58 +1,79 @@
 import Titles from "@/commonUl/Titles";
+import ViewAll from "@/commonUl/ViewAll";
 import Image from "next/image";
 import { Col, Row } from "antd";
 import React from "react";
 import ParaText from "@/commonUl/ParaText";
 import LocationsCard from "@/commonUl/LocationsCard";
+import Numscroller from "@/commonUl/Numscroller";
+import SecondaryButton from "@/commonUl/SecondaryButton";
+import EmailFiled from "@/commonUl/emailFiled/page";
+import CardLocations from "@/commonUl/CardLocations/page";
+import FreedomCard from "@/commonUl/FreedomCard";
+import NewsLatest from "@/commonUl/NewsLatest/page";
 import styles from "./homePage.module.css";
 import CollapsePanel from "@/commonUl/CollapsePanel";
-import ViewAll from "@/components/Public/ViewAll";
-import Numscroller from "@/components/Public/Numscroller";
-import EmailFiled from "@/components/Public/emailFiled/page";
-import CardLocations from "@/components/Public/CardLocations/page";
-import FreedomCard from "@/components/Public/FreedomCard";
-import NewsLatest from "@/components/Public/NewsLatest/page";
-import BannerForm from "@/components/Public/BannerForm";
+import FooterPart from "@/commonUl/FooterPart/page";
+import HeaderMain from "@/commonUl/HeaderMain";
+import SelectBoxFiled from "@/commonUl/SelectBoxFiled";
+import { RiHomeLine } from "react-icons/ri";
 
 export default function Home() {
   return (
     <>
+      <div>
+        <HeaderMain />
+      </div>
+
       <div className={styles.bannerPart}>
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
-            <Col xl={10} md={24} sm={24} xs={24} className="tabViewCenter">
+            <Col lg={10} md={10} sm={10} xs={10}>
               <Titles level={1} color="light">
+                {" "}
                 Flexible. Affordable. <span className="yellowText">Home</span>
               </Titles>
               <br />
-              <Titles
-                level={5}
-                color="light"
-                className="weight400 mobileViewNone"
-              >
+              <Titles level={5} color="light" className="weight400">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </Titles>
             </Col>
           </Row>
-          <BannerForm />
           <div className={styles.bookYourVacation}>
             <ParaText size="medium" color="light" className={styles.bookYour}>
               {" "}
               Book your vacation
             </ParaText>
             <Row align="middle" gutter={16}>
-              <Col lg={19} md={24} sm={19} xs={24}>
+              <Col lg={19} md={19} sm={19} xs={24}>
                 <div className="formPart">
                   <Row align="middle" gutter={16}>
-                    <Col lg={9} md={9} xs={24}>
-                      {" "}
-                      xaxax
+                    <Col lg={9} md={9} sm={9} xs={24}>
+                      <Row align="middle" gutter={16}>
+                        <Col lg={3} md={3} sm={3} xs={3}>
+                          <Titles level={4} color="light">
+                            <RiHomeLine />
+                          </Titles>
+                        </Col>
+                        <Col lg={21} md={21} sm={21} xs={21}>
+                          <SelectBoxFiled />
+                        </Col>
+                      </Row>
+                    </Col>
+                    <Col lg={4} md={4} sm={4} xs={12}>
+                      ax
+                    </Col>
+                    <Col lg={3} md={3} sm={3} xs={12}>
+                      ax
+                    </Col>
+                    <Col lg={8} md={8} sm={8} xs={24}>
+                      axa
                     </Col>
                   </Row>
                 </div>
               </Col>
-              <Col lg={5} md={24} xs={24} className="textEnd tabMarginTopTwo">
+              <Col lg={5} md={5} sm={5} xs={24} className="textEnd">
                 <SecondaryButton
                   label="Find A Room"
                   className={`mediumButton w100 ${styles.SubscribeButton}`}
@@ -63,32 +84,32 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`mainGap ${styles.exploreLocations}`}>
+      <div className="exploreLocations mainGap">
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
-            <Col lg={18} md={18} sm={18} xs={16}>
+            <Col lg={18} md={18} sm={18} xs={18}>
               <Titles level={2} color="neutralColor">
                 {" "}
                 Explore Our Locations
               </Titles>
             </Col>
-            <Col lg={6} md={6} sm={6} xs={8} className="textEnd">
+            <Col lg={6} md={6} sm={6} xs={6} className="textEnd">
               <ViewAll />
             </Col>
           </Row>
           <br />
           <br />
           <Row align="middle" gutter={16}>
-            <Col lg={6} md={12} sm={6} xs={24} className="marginBottomTwo">
+            <Col lg={6} md={12} sm={6} xs={24}>
               <LocationsCard />
             </Col>
-            <Col lg={6} md={12} sm={6} xs={24} className="marginBottomTwo">
+            <Col lg={6} md={12} sm={6} xs={24}>
               <LocationsCard />
             </Col>
-            <Col lg={6} md={12} sm={6} xs={24} className="marginBottomTwo">
+            <Col lg={6} md={12} sm={6} xs={24}>
               <LocationsCard />
             </Col>
-            <Col lg={6} md={12} sm={6} xs={24} className="marginBottomTwo">
+            <Col lg={6} md={12} sm={6} xs={24}>
               <LocationsCard />
             </Col>
           </Row>
@@ -98,12 +119,13 @@ export default function Home() {
       <div className="about mainGap">
         <div className="mainContainer">
           <Row gutter={16}>
-            <Col lg={12} md={24} xs={24}>
+            <Col lg={12} md={12} sm={12} xs={24}>
               <div className="textCenter">
                 <Titles level={2} color="neutralColor">
+                  {" "}
                   About Us
                 </Titles>
-                <div className="marginBottomTwo"></div>
+                <br />
                 <ParaText size="medium" color="dark">
                   {" "}
                   Clean, spacious suites. Affordable prices. Flexible options.
@@ -114,11 +136,12 @@ export default function Home() {
                   the practical amenities you need, allowing you to not miss a
                   beat.
                 </ParaText>
-                <div className="marginBottomThree"></div>
+                <br />
+                <br />
                 <Numscroller />
               </div>
             </Col>
-            <Col lg={12} md={24} xs={24} className="textEnd tabMarginTopTwo">
+            <Col lg={12} md={12} sm={12} xs={24} className="textEnd">
               <Image
                 src="/images/about-us.png"
                 alt="about-us"
@@ -134,19 +157,21 @@ export default function Home() {
       <div className={styles.stayConnect}>
         <div className="mainContainer">
           <Row>
-            <Col lg={12} md={24} xs={24} className="tabViewCenter">
+            <Col lg={12} md={12} sm={12} xs={24}>
               <div className="lineBox"></div>
               <Titles level={2} color="light">
-                Stay Connected With Us For New Offers
+                Stay connected with us For new offers
               </Titles>
-              <div className="marginBottomTwo"></div>
+              <br />
               <ParaText size="large" color="light">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </ParaText>
-              <div className="marginBottomThree"></div>
+              <br />
+              <br />
+              <br />
               <Row align="middle" gutter={16}>
-                <Col lg={18} md={24} xs={24}>
+                <Col lg={18} md={18} sm={18} xs={18}>
                   <EmailFiled />
                 </Col>
               </Row>
@@ -158,13 +183,13 @@ export default function Home() {
       <div className="stayRecommended mainGap">
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
-            <Col lg={18} md={18} xs={16}>
+            <Col lg={18} md={18} sm={18} xs={18}>
               <Titles level={2} color="neutralColor">
                 {" "}
                 Stay We Recommended
               </Titles>
             </Col>
-            <Col lg={6} md={6} xs={8} className="textEnd">
+            <Col lg={6} md={6} sm={6} xs={6} className="textEnd">
               <ViewAll />
             </Col>
           </Row>
@@ -175,22 +200,10 @@ export default function Home() {
             <Col lg={14} md={14} sm={14} xs={24}>
               <CardLocations />
               <Row align="middle" gutter={16}>
-                <Col
-                  lg={12}
-                  md={12}
-                  sm={12}
-                  xs={12}
-                  className="ButtonNoneTabView"
-                >
+                <Col lg={12} md={12} sm={12} xs={12}>
                   <CardLocations />
                 </Col>
-                <Col
-                  lg={12}
-                  md={12}
-                  sm={12}
-                  xs={12}
-                  className="ButtonNoneTabView"
-                >
+                <Col lg={12} md={12} sm={12} xs={12}>
                   <CardLocations />
                 </Col>
               </Row>
@@ -210,24 +223,25 @@ export default function Home() {
             You Have the Freedom to <br className="mobileViewNone" /> Stay
             awhile...{" "}
           </Titles>
-          <div className="marginBottomThree"></div>
+          <br />
+          <br />
           <Row align="middle" gutter={40}>
             <Col lg={8} md={8} sm={8} xs={24}>
               <FreedomCard />
             </Col>
-            <Col lg={8} md={8} sm={8} xs={24} className="mobileMarginTopTwo">
+            <Col lg={8} md={8} sm={8} xs={24}>
               <FreedomCard />
             </Col>
-            <Col lg={8} md={8} sm={8} xs={24} className="mobileMarginTopTwo">
+            <Col lg={8} md={8} sm={8} xs={24}>
               <FreedomCard />
             </Col>
           </Row>
         </div>
       </div>
 
-      <div className="about mainGap tabPaddingBottomOne">
+      <div className="about mainGap">
         <div className="mainContainer">
-          <div className="marginBottomTwo"></div>
+          <br />
           <Row gutter={16}>
             <Col lg={3} md={3} sm={3} xs={24}>
               {" "}
@@ -238,7 +252,7 @@ export default function Home() {
                   {" "}
                   What People Says About Us{" "}
                 </Titles>
-                <div className="marginBottomTwo"></div>
+                <br />
                 <ParaText size="medium" color="dark">
                   {" "}
                   Lorem Ipsum is simply dummy text of the printing and
@@ -266,7 +280,8 @@ export default function Home() {
             {" "}
             Check our Latest News{" "}
           </Titles>
-          <div className="marginBottomThree"></div>
+          <br />
+          <br />
 
           <Row align="middle" gutter={30}>
             <Col lg={8} md={8} sm={8} xs={24}>
@@ -288,10 +303,13 @@ export default function Home() {
             {" "}
             Frequently Asked Questions
           </Titles>{" "}
-          <div className="marginBottomFour"></div>
+          <br />
+          <br />
           <CollapsePanel />
         </div>
       </div>
+
+      <FooterPart />
     </>
   );
 }
