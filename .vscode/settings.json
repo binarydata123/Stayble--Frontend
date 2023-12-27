@@ -14,5 +14,12 @@
     }
   },
   "deepscan.ignoreConfirmWarning": true,
-  "cSpell.words": ["antd", "cardlocations", "Numberscroller", "Numscroller"]
+  "cSpell.words": [
+    "antd",
+    "cardlocations",
+    "dropfild",
+    "heroicons",
+    "Numberscroller",
+    "Numscroller"
+  ]
 }

@@ -1,4 +1,4 @@
-import LocationsCard from "@/components/Public/LocationsCard";
+import LocationsCard from "@/commonUl/LocationsCard";
 import { Col, Row } from "antd";
 import React from "react";
 export default function page() {

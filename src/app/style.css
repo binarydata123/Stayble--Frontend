@@ -1,45 +1,62 @@
 .largeButton {
   font-size: 24px !important;
 }
+
+.ant-image .ant-image-mask:hover {
+  opacity: 0 !important;
+}
+
 .mediumButton {
   font-size: 20px !important;
 }
+
 .smallButton {
   font-size: 18px !important;
 }
+
 .mainContainer {
   max-width: 1480px !important;
   width: 90% !important;
   margin: 0 auto;
 }
+
 .textEnd {
   text-align: right;
 }
+
 .textStart {
   text-align: left;
 }
+
 .textCenter {
   text-align: center;
 }
+
 .weight400 {
-  font-weight: 400 !important ;
+  font-weight: 400 !important;
 }
+
 .weight900 {
   font-weight: 900 !important;
 }
+
 span b {
   font-weight: 600;
 }
+
 .mainGap {
   padding: 60px 0;
 }
+
 .img100 {
   width: 100%;
   height: unset;
 }
+
 .yellowText {
   color: #ffe70f !important;
 }
+
 .lineBox {
   border-radius: 10px;
   background: #ffe70f;
@@ -47,12 +64,15 @@ span b {
   height: 20px;
   margin-bottom: 25px;
 }
+
 #leftGap {
   padding-left: 60px !important;
 }
+
 .smallGap {
   padding: 20px 0;
 }
+
 .w100 {
   width: 100% !important;
 }
@@ -61,12 +81,8 @@ span b {
   border-radius: 10px;
   border: 1px solid #e7e7f245;
 }
-.marginOne{
 
-
-
-    
-}
+.marginOne {}
 
 
 
@@ -79,13 +95,16 @@ span b {
     text-align: center;
   }
 }
+
 @media (max-width: 767px) {
   .mainContainer {
     max-width: 90% !important;
   }
+
   .mobileViewNone {
     display: none !important;
   }
+
   .mobileViewCenter {
     text-align: center !important;
   }

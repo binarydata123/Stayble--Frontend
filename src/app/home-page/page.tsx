@@ -1,54 +1,99 @@
 import Titles from "@/commonUl/Titles";
+import ViewAll from "@/commonUl/ViewAll";
 import Image from "next/image";
 import { Col, Row } from "antd";
 import React from "react";
 import ParaText from "@/commonUl/ParaText";
 import LocationsCard from "@/commonUl/LocationsCard";
+import Numscroller from "@/commonUl/Numscroller";
+import SecondaryButton from "@/commonUl/SecondaryButton";
+import EmailFiled from "@/commonUl/emailFiled/page";
+import CardLocations from "@/commonUl/CardLocations/page";
+import FreedomCard from "@/commonUl/FreedomCard";
+import NewsLatest from "@/commonUl/NewsLatest/page";
 import styles from "./homePage.module.css";
 import CollapsePanel from "@/commonUl/CollapsePanel";
-import ViewAll from "@/components/Public/ViewAll";
-import Numscroller from "@/components/Public/Numscroller";
-import EmailFiled from "@/components/Public/emailFiled/page";
-import CardLocations from "@/components/Public/CardLocations/page";
-import FreedomCard from "@/components/Public/FreedomCard";
-import NewsLatest from "@/components/Public/NewsLatest/page";
-import BannerForm from "@/components/Public/BannerForm";
+import FooterPart from "@/commonUl/FooterPart/page";
+import HeaderMain from "@/commonUl/HeaderMain";
+import SelectBoxFiled from "@/commonUl/SelectBoxFiled";
+import { RiHomeLine } from "react-icons/ri";
 
 export default function Home() {
   return (
     <>
+      <div>
+        <HeaderMain />
+      </div>
+
       <div className={styles.bannerPart}>
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
-            <Col xl={10} md={24} sm={24} xs={24} className="tabViewCenter">
+            <Col lg={10} md={10} sm={10} xs={10}>
               <Titles level={1} color="light">
+                {" "}
                 Flexible. Affordable. <span className="yellowText">Home</span>
               </Titles>
               <br />
-              <Titles
-                level={5}
-                color="light"
-                className="weight400 mobileViewNone"
-              >
+              <Titles level={5} color="light" className="weight400">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </Titles>
             </Col>
           </Row>
-          <BannerForm />
+          <div className={styles.bookYourVacation}>
+            <ParaText size="medium" color="light" className={styles.bookYour}>
+              {" "}
+              Book your vacation
+            </ParaText>
+            <Row align="middle" gutter={16}>
+              <Col lg={19} md={19} sm={19} xs={24}>
+                <div className="formPart">
+                  <Row align="middle" gutter={16}>
+                    <Col lg={9} md={9} sm={9} xs={24}>
+                      <Row align="middle" gutter={16}>
+                        <Col lg={3} md={3} sm={3} xs={3}>
+                          <Titles level={4} color="light">
+                            <RiHomeLine />
+                          </Titles>
+                        </Col>
+                        <Col lg={21} md={21} sm={21} xs={21}>
+                          <SelectBoxFiled />
+                        </Col>
+                      </Row>
+                    </Col>
+                    <Col lg={4} md={4} sm={4} xs={12}>
+                      ax
+                    </Col>
+                    <Col lg={3} md={3} sm={3} xs={12}>
+                      ax
+                    </Col>
+                    <Col lg={8} md={8} sm={8} xs={24}>
+                      axa
+                    </Col>
+                  </Row>
+                </div>
+              </Col>
+              <Col lg={5} md={5} sm={5} xs={24} className="textEnd">
+                <SecondaryButton
+                  label="Find A Room"
+                  className={`mediumButton w100 ${styles.SubscribeButton}`}
+                />
+              </Col>
+            </Row>
+          </div>
         </div>
       </div>
 
       <div className="exploreLocations mainGap">
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
-            <Col lg={18} md={18} sm={18} xs={16}>
+            <Col lg={18} md={18} sm={18} xs={18}>
               <Titles level={2} color="neutralColor">
                 {" "}
                 Explore Our Locations
               </Titles>
             </Col>
-            <Col lg={6} md={6} sm={6} xs={8} className="textEnd">
+            <Col lg={6} md={6} sm={6} xs={6} className="textEnd">
               <ViewAll />
             </Col>
           </Row>
@@ -263,6 +308,8 @@ export default function Home() {
           <CollapsePanel />
         </div>
       </div>
+
+      <FooterPart />
     </>
   );
 }
