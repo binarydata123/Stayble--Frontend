@@ -13,6 +13,7 @@ import CardLocations from "@/components/Public/CardLocations/page";
 import FreedomCard from "@/components/Public/FreedomCard";
 import NewsLatest from "@/components/Public/NewsLatest/page";
 import BannerForm from "@/components/Public/BannerForm";
+import SecondaryButton from "@/commonUl/SecondaryButton";
 
 export default function Home() {
   return (
@@ -36,30 +37,6 @@ export default function Home() {
             </Col>
           </Row>
           <BannerForm />
-          <div className={styles.bookYourVacation}>
-            <ParaText size="medium" color="light" className={styles.bookYour}>
-              {" "}
-              Book your vacation
-            </ParaText>
-            <Row align="middle" gutter={16}>
-              <Col lg={19} md={24} sm={19} xs={24}>
-                <div className="formPart">
-                  <Row align="middle" gutter={16}>
-                    <Col lg={9} md={9} xs={24}>
-                      {" "}
-                      xaxax
-                    </Col>
-                  </Row>
-                </div>
-              </Col>
-              <Col lg={5} md={24} xs={24} className="textEnd tabMarginTopTwo">
-                <SecondaryButton
-                  label="Find A Room"
-                  className={`mediumButton w100 ${styles.SubscribeButton}`}
-                />
-              </Col>
-            </Row>
-          </div>
         </div>
       </div>
 
