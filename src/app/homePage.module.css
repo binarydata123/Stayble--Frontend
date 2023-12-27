@@ -19,7 +19,9 @@
 .faqPart .ant-collapse {
   background: #fff0 !important;
 }
-
+.exploreLocations {
+  background: rgba(0, 145, 247, 0.03);
+}
 /* bookYourVacation css */
 .bookYourVacation {
   border-radius: 20px 20px 0px 0px;
@@ -42,4 +44,5 @@
   .bannerPart {
     padding: 150px 0 0 0;
   }
+
 }

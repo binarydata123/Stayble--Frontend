@@ -1,15 +1,32 @@
 .textBoxCard {
-    position: absolute;
-    bottom: 43px;
-    left: 20px;
+  position: absolute;
+  bottom: 43px;
+  left: 20px;
 }
- 
+
 .locationsCard {
-    position: relative;
-} 
+  position: relative;
+}
 .locationsCard img {
-    width: 100%;
-    height: unset;
-    border-radius: 16px;
-    margin-bottom: 10px;
-} 
+  width: 100%;
+  height: unset;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .textBoxCard {
+    position: absolute;
+    bottom: 30px;
+    left: 13px;
+  }
+  .textBoxCard span {
+    font-size: 18px !important;
+  }
+  .textBoxCard h4 {
+    font-size: 24px !important;
+  }
+  .textBoxCard button.smallButton {
+    padding: 8px 20px !important;
+  }
+}

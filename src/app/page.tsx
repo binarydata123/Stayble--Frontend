@@ -41,17 +41,17 @@ export default function Home() {
               Book your vacation
             </ParaText>
             <Row align="middle" gutter={16}>
-              <Col lg={19} md={19} sm={19} xs={24}>
+              <Col lg={19} md={24} sm={19} xs={24}>
                 <div className="formPart">
                   <Row align="middle" gutter={16}>
-                    <Col lg={9} md={9} sm={9} xs={24}>
+                    <Col lg={9} md={9} xs={24}>
                       {" "}
                       xaxax
                     </Col>
                   </Row>
                 </div>
               </Col>
-              <Col lg={5} md={5} sm={5} xs={24} className="textEnd">
+              <Col lg={5} md={24} xs={24} className="textEnd tabMarginTopTwo">
                 <SecondaryButton
                   label="Find A Room"
                   className={`mediumButton w100 ${styles.SubscribeButton}`}
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="exploreLocations mainGap">
+      <div className={`mainGap ${styles.exploreLocations}`}>
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
             <Col lg={18} md={18} sm={18} xs={16}>
@@ -78,16 +78,16 @@ export default function Home() {
           <br />
           <br />
           <Row align="middle" gutter={16}>
-            <Col lg={6} md={12} sm={6} xs={24}>
+            <Col lg={6} md={12} sm={6} xs={24} className="marginBottomTwo">
               <LocationsCard />
             </Col>
-            <Col lg={6} md={12} sm={6} xs={24}>
+            <Col lg={6} md={12} sm={6} xs={24} className="marginBottomTwo">
               <LocationsCard />
             </Col>
-            <Col lg={6} md={12} sm={6} xs={24}>
+            <Col lg={6} md={12} sm={6} xs={24} className="marginBottomTwo">
               <LocationsCard />
             </Col>
-            <Col lg={6} md={12} sm={6} xs={24}>
+            <Col lg={6} md={12} sm={6} xs={24} className="marginBottomTwo">
               <LocationsCard />
             </Col>
           </Row>
@@ -97,13 +97,12 @@ export default function Home() {
       <div className="about mainGap">
         <div className="mainContainer">
           <Row gutter={16}>
-            <Col lg={12} md={12} sm={12} xs={24}>
+            <Col lg={12} md={24} xs={24}>
               <div className="textCenter">
                 <Titles level={2} color="neutralColor">
-                  {" "}
                   About Us
                 </Titles>
-                <br />
+                <div className="marginBottomTwo"></div>
                 <ParaText size="medium" color="dark">
                   {" "}
                   Clean, spacious suites. Affordable prices. Flexible options.
@@ -114,12 +113,11 @@ export default function Home() {
                   the practical amenities you need, allowing you to not miss a
                   beat.
                 </ParaText>
-                <br />
-                <br />
+                <div className="marginBottomThree"></div>
                 <Numscroller />
               </div>
             </Col>
-            <Col lg={12} md={12} sm={12} xs={24} className="textEnd">
+            <Col lg={12} md={24} xs={24} className="textEnd tabMarginTopTwo">
               <Image
                 src="/images/about-us.png"
                 alt="about-us"
@@ -135,21 +133,19 @@ export default function Home() {
       <div className={styles.stayConnect}>
         <div className="mainContainer">
           <Row>
-            <Col lg={12} md={12} sm={12} xs={24}>
+            <Col lg={12} md={24} xs={24} className="tabViewCenter">
               <div className="lineBox"></div>
               <Titles level={2} color="light">
-                Stay connected with us For new offers
+                Stay Connected With Us For New Offers
               </Titles>
-              <br />
+              <div className="marginBottomTwo"></div>
               <ParaText size="large" color="light">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </ParaText>
-              <br />
-              <br />
-              <br />
+              <div className="marginBottomThree"></div>
               <Row align="middle" gutter={16}>
-                <Col lg={18} md={18} sm={18} xs={18}>
+                <Col lg={18} md={24} xs={24}>
                   <EmailFiled />
                 </Col>
               </Row>
@@ -161,13 +157,13 @@ export default function Home() {
       <div className="stayRecommended mainGap">
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
-            <Col lg={18} md={18} sm={18} xs={18}>
+            <Col lg={18} md={18} xs={16}>
               <Titles level={2} color="neutralColor">
                 {" "}
                 Stay We Recommended
               </Titles>
             </Col>
-            <Col lg={6} md={6} sm={6} xs={6} className="textEnd">
+            <Col lg={6} md={6} xs={8} className="textEnd">
               <ViewAll />
             </Col>
           </Row>
@@ -178,10 +174,22 @@ export default function Home() {
             <Col lg={14} md={14} sm={14} xs={24}>
               <CardLocations />
               <Row align="middle" gutter={16}>
-                <Col lg={12} md={12} sm={12} xs={12}>
+                <Col
+                  lg={12}
+                  md={12}
+                  sm={12}
+                  xs={12}
+                  className="ButtonNoneTabView"
+                >
                   <CardLocations />
                 </Col>
-                <Col lg={12} md={12} sm={12} xs={12}>
+                <Col
+                  lg={12}
+                  md={12}
+                  sm={12}
+                  xs={12}
+                  className="ButtonNoneTabView"
+                >
                   <CardLocations />
                 </Col>
               </Row>
@@ -201,25 +209,24 @@ export default function Home() {
             You Have the Freedom to <br className="mobileViewNone" /> Stay
             awhile...{" "}
           </Titles>
-          <br />
-          <br />
+          <div className="marginBottomThree"></div>
           <Row align="middle" gutter={40}>
             <Col lg={8} md={8} sm={8} xs={24}>
               <FreedomCard />
             </Col>
-            <Col lg={8} md={8} sm={8} xs={24}>
+            <Col lg={8} md={8} sm={8} xs={24} className="mobileMarginTopTwo">
               <FreedomCard />
             </Col>
-            <Col lg={8} md={8} sm={8} xs={24}>
+            <Col lg={8} md={8} sm={8} xs={24} className="mobileMarginTopTwo">
               <FreedomCard />
             </Col>
           </Row>
         </div>
       </div>
 
-      <div className="about mainGap">
+      <div className="about mainGap tabPaddingBottomOne">
         <div className="mainContainer">
-          <br />
+          <div className="marginBottomTwo"></div>
           <Row gutter={16}>
             <Col lg={3} md={3} sm={3} xs={24}>
               {" "}
@@ -230,7 +237,7 @@ export default function Home() {
                   {" "}
                   What People Says About Us{" "}
                 </Titles>
-                <br />
+                <div className="marginBottomTwo"></div>
                 <ParaText size="medium" color="dark">
                   {" "}
                   Lorem Ipsum is simply dummy text of the printing and
@@ -258,8 +265,7 @@ export default function Home() {
             {" "}
             Check our Latest News{" "}
           </Titles>
-          <br />
-          <br />
+          <div className="marginBottomThree"></div>
 
           <Row align="middle" gutter={30}>
             <Col lg={8} md={8} sm={8} xs={24}>
@@ -281,8 +287,7 @@ export default function Home() {
             {" "}
             Frequently Asked Questions
           </Titles>{" "}
-          <br />
-          <br />
+          <div className="marginBottomFour"></div>
           <CollapsePanel />
         </div>
       </div>
