@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './style.css';
 import { Col, Image, Row } from 'antd';
 import { CloseOutlined, MenuOutlined } from '@ant-design/icons';
-import Link from 'next/link'; 
+import Link from 'next/link';
 import SecondaryButton from '../SecondaryButton';
 export default function HeaderMain() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,13 +11,13 @@ export default function HeaderMain() {
 	const toggleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
 	};
-	return (
+	return ( 
 		<>
 			<div className="headerPart">
 				<div className="mainContainer">
 					<Row align="middle">
 						<Col xl={4} md={4} xs={12}>
-							<Link href="/"> 
+							<Link href="/">
 								<Image src="/images/logo.png" alt="Footer Logo"  width={215} height={76} />
 							</Link>
 						</Col>
@@ -41,14 +41,14 @@ export default function HeaderMain() {
 										<li>
 											<Link href="#">Offers </Link>
 										</li>
-										 
+
 									</ul>
 								</div>
 							</div>
 						</Col>
 						<Col xl={4} md={24} xs={24} className='textEnd headerButton'>
 							<div className={`  ${isMenuOpen ? 'open' : 'headBtnMobile'}`}>
-							 <SecondaryButton label='Book Now' className='smallButton'  />							 
+							 <SecondaryButton label='Book Now' className='smallButton'  />
 							</div>
 						</Col>
 					</Row>
