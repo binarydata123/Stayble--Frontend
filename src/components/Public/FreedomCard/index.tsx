@@ -14,12 +14,12 @@ export default function FreedomCard() {
           width={800}
           height={800}
         />
-        <br />
+        <div className="marginBottomOne"></div>
         <Titles level={4} color="light">
           {" "}
           Stay Flexible.
         </Titles>
-        <br />
+        <div className="marginBottomOne"></div>
         <ParaText size="large" color="light">
           Easy booking, no long-term commitment, no credit check, and one bill
           for all the essentials lets you come and go on your time.
