@@ -1,11 +1,16 @@
 "use client";
-import { Col, Row } from "antd";
+import { Col, Image, Row } from "antd";
 import React from "react";
 import styles from "./blog.module.css";
 import Titles from "@/commonUl/Titles";
 import SecondaryButton from "@/commonUl/SecondaryButton";
 import BlogCard from "@/commonUl/BlogCard";
 import ParaText from "@/commonUl/ParaText";
+import ShowImage from "@/commonUl/ShowImage";
+import BlogTabsSection from "@/components/Public/BlogTabsSection";
+import BlogLarge from "@/components/Public/BlogLarge";
+import BlogSmall from "@/components/Public/BlogSmall";
+import BlogSectionAll from "@/components/Public/BlogSectionAll";
 export default function page() {
   return (
     <>
@@ -161,12 +166,12 @@ export default function page() {
         </div>
       </div>
 
-      <div className="">
+      <div className={styles.bannerSection}>
         <div className={`mainContainer ${styles.bannerblogSection}`}>
           <Row align="middle" gutter={16}>
             <Col xl={24} md={24} sm={24} xs={24} className="tabViewCenter">
               <div className="textCenter">
-                <Titles level={3} color="light">
+                <Titles level={3} color="light" className="weight400">
                   Richird Norton photorealistic rendering as <br /> real photos
                 </Titles>
                 <ParaText size="small" color="light">
@@ -183,6 +188,71 @@ export default function page() {
           </Row>
         </div>
       </div>
+
+      <section>
+        <div className={`mainContainer ${styles.topDestinations}`}>
+          <Titles level={4} className="fontThirtyTwo weight400">
+            Top Destinations
+          </Titles>
+          <ParaText size="textGraf" color="paraGraf">
+            Tick one more destination off of your bucket list with one of our
+            most popular vacations in 2022
+          </ParaText>
+
+          <div className={`flex ${styles.flexBox}`}>
+            <div className={styles.imageBoxCard}>
+              <ShowImage size={100} src="/images/card/one.png" alt="" />
+              <div className={styles.titleCenter}>
+                <Titles level={5} className="weight400" color="light">
+                  Dominican Republic
+                </Titles>
+              </div>
+            </div>
+            <div className={styles.imageBoxCard}>
+              <ShowImage size={100} src="/images/card/two.png" alt="" />
+              <div className={styles.titleCenter}>
+                <Titles level={5} className="weight400" color="light">
+                  Maecenas Tincidunt
+                </Titles>
+              </div>
+            </div>
+            <div className={styles.imageBoxCard}>
+              <ShowImage size={100} src="/images/card/three.png" alt="" />
+              <div className={styles.titleCenter}>
+                <Titles level={5} className="weight400" color="light">
+                  Dominican Republic
+                </Titles>
+              </div>
+            </div>
+            <div className={styles.imageBoxCard}>
+              <ShowImage size={100} src="/images/card/four.png" alt="" />
+              <div className={styles.titleCenter}>
+                <Titles level={5} className="weight400" color="light">
+                  Dominican Republic
+                </Titles>
+              </div>
+            </div>
+            <div className={styles.imageBoxCard}>
+              <ShowImage size={100} src="/images/card/five.png" alt="" />
+              <div className={styles.titleCenter}>
+                <Titles level={5} className="weight400" color="light">
+                  Dominican Republic
+                </Titles>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="tabSectionBlog">
+        <div className="mainContainer">
+          <BlogTabsSection />
+          <br />
+          <div className={styles.blogTabSectionTitle}>
+            <BlogSectionAll />
+          </div>
+        </div>
+      </section>
     </>
   );
 }

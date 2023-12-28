@@ -1,0 +1,26 @@
+/* tabs */
+
+.tabTitle {
+    border: 1px solid rgba(18, 20, 22, 0.20);
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.month {
+    color: #6E6E6E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.underline {
+    border-bottom: 1px solid #121416;
+}
+
+.imageTitle {
+    margin-bottom: 25px;
+}

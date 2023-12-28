@@ -27,6 +27,7 @@
 .flex {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .textStart {
@@ -45,6 +46,10 @@
   font-weight: 900 !important;
 }
 
+.fontThirtyTwo {
+  font-size: 32px !important;
+}
+
 span b {
   font-weight: 600;
 }
@@ -52,6 +57,7 @@ span b {
 .mainGap {
   padding: 60px 0;
 }
+
 .largeGap {
   padding: 120px 0;
 }
@@ -213,6 +219,3 @@ span b {
     text-align: left !important;
   }
 }
-
-
- 
