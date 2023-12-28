@@ -10,7 +10,6 @@ import ViewAll from "@/components/Public/ViewAll";
 import Numscroller from "@/components/Public/Numscroller";
 import EmailFiled from "@/components/Public/emailFiled/page";
 import CardLocations from "@/components/Public/CardLocations/page";
-import FreedomCard from "@/components/Public/FreedomCard";
 import NewsLatest from "@/components/Public/NewsLatest/page";
 import BannerForm from "@/components/Public/BannerForm";
 export default function Home() {
