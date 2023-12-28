@@ -259,8 +259,7 @@ export default function Home() {
 
       <div className={`mainGap ${styles.faqPart}`}>
         <div className="mainContainer">
-          <Titles level={3} color="neutralColor" className="textCenter">
-            {" "}
+          <Titles level={3} color="neutralColor" className="textCenter"> 
             Frequently Asked Questions
           </Titles>{" "}
           <div className="marginBottomFour"></div>
