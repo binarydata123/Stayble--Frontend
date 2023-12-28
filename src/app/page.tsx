@@ -13,8 +13,6 @@ import CardLocations from "@/components/Public/CardLocations/page";
 import FreedomCard from "@/components/Public/FreedomCard";
 import NewsLatest from "@/components/Public/NewsLatest/page";
 import BannerForm from "@/components/Public/BannerForm";
-import SecondaryButton from "@/commonUl/SecondaryButton";
-
 export default function Home() {
   return (
     <>
