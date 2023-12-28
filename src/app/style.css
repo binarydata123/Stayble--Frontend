@@ -52,9 +52,15 @@
 .weight400 {
   font-weight: 400 !important;
 }
+
 .weight600 {
   font-weight: 600 !important;
 }
+
+.paddingLeftTwenty {
+  padding-left: 20px;
+}
+
 .weight900 {
   font-weight: 900 !important;
 }
@@ -73,6 +79,15 @@ span b {
 
 .largeGap {
   padding: 120px 0;
+}
+
+.large {
+  padding: 130px 0 150px 0px;
+}
+
+.marginRemove {
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .img100 {
@@ -112,12 +127,15 @@ span b {
   border-radius: 10px;
   border: 1px solid #e7e7f245;
 }
+
 .marginTopNone {
   margin-top: 0 !important;
 }
+
 .marginBottomNone {
   margin-bottom: 0 !important;
 }
+
 .marginTopOne {
   margin-top: 10px;
 }
@@ -161,14 +179,17 @@ span b {
 .img100 .ant-image {
   width: 100% !important;
 }
+
 .imgRound img {
   border-radius: 12px;
 }
+
 .starReview svg {
   font-size: 20px;
   padding: 0 2px;
   color: #ffc107;
 }
+
 /* .img100 {
   height: unset !important;
 }
@@ -219,6 +240,7 @@ span b {
   .ButtonNoneTabView button.smallButton {
     display: none;
   }
+
   .lineBox.blue {
     margin: 0 0 10px 0 !important;
   }
@@ -228,9 +250,11 @@ span b {
   #leftGap {
     padding-left: 0 !important;
   }
+
   .largeGap {
     padding: 60px 0;
   }
+
   .undefined {
     overflow: hidden;
   }

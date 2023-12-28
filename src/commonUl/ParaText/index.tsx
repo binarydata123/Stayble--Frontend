@@ -17,6 +17,7 @@ interface CustomTextProps {
     | "linkLight"
     | "darkgraydark"
     | "paraGraf"
+    | "colordark"
     | "darkgray";
 }
 
@@ -97,6 +98,8 @@ const ParaText = ({
               ? "#6C757D"
               : color == "paraGraf"
               ? "#121416"
+              : color == "colordark"
+              ? "#434343"
               : color
           }`,
         }}
