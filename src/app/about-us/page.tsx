@@ -1,4 +1,3 @@
-
 import LocationsCard from "@/commonUl/LocationsCard";
 import { Col, Image, Row } from "antd";
 import React from "react";
@@ -10,6 +9,8 @@ import SecondaryButton from "@/commonUl/SecondaryButton";
 import CollapsePanel from "@/commonUl/CollapsePanel";
 import { FaWifi } from "react-icons/fa6";
 import IconTitle from "@/components/Public/iconTitle";
+import CardGallery from "@/components/Public/CardGallery/page";
+import OurTestimonial from "@/components/Public/ourTestimonial";
 export default function page() {
   return (
     <>
@@ -59,7 +60,7 @@ export default function page() {
 
           <div className={styles.imgOverlap}>
             <Row gutter={16}>
-              <Col xl={16} md={16} xs={24} className="img100">
+              <Col xl={16} md={16} xs={24} className="img100 tabMarginTopTwo">
                 <Image
                   src="/images/Rectangle-5.png"
                   alt="Mask Group"
@@ -69,7 +70,7 @@ export default function page() {
                 />
               </Col>
 
-              <Col xl={8} md={8} xs={24} className="img100">
+              <Col xl={8} md={8} xs={24} className="img100 tabMarginTopTwo">
                 <Image
                   src="/images/Rectangle-5.png"
                   alt="Mask Group"
@@ -109,11 +110,10 @@ export default function page() {
       <div className={`largeGap ${styles.happyTours}`}>
         <div className="mainContainer">
           <Row align="middle" gutter={50}>
-            <Col lg={12} md={24} xs={24} className="img100">
+            <Col lg={12} md={24} xs={24} className="img100 marginBottomThree">
               <Image
                 src="/images/Rectangle-5.png"
                 alt="Mask Group"
-                className="img100"
                 width={500}
                 height={800}
               />
@@ -154,11 +154,62 @@ export default function page() {
         </div>
       </div>
 
+      <div className={`largeGap ${styles.ourGallery}`}>
+        <div className="mainContainer">
+          <div className="lineBox blue"></div>
+          <Titles level={3} color="neutralColor">
+            Our gallery
+          </Titles>
+          <div className="marginBottomFive "></div>
+          <Row>
+            <Col lg={12} md={12} sm={12} xs={24} className="tabMarginTopTwo">
+              <CardGallery />
+            </Col>
+            <Col lg={12} md={12} sm={12} xs={24} className="tabMarginTopTwo">
+              <CardGallery />
+            </Col>
+            <Col lg={8} md={8} sm={8} xs={24} className="tabMarginTopTwo">
+              <CardGallery />
+            </Col>
+
+            <Col lg={8} md={8} sm={8} xs={24} className="tabMarginTopTwo">
+              <CardGallery />
+            </Col>
+            <Col lg={8} md={8} sm={8} xs={24} className="tabMarginTopTwo">
+              <CardGallery />
+            </Col>
+          </Row>
+        </div>
+      </div>
+
+      <div className={`largeGap ${styles.ourTestimonial}`}>
+        <div className="mainContainer">
+          <center>
+            <div className="lineBox blue"></div>
+            <Titles level={3} color="neutralColor">
+              What people say about us
+            </Titles>
+          </center>
+          <div className="marginBottomFive "></div>
+          <Row gutter={30}>
+            <Col lg={8} md={8} sm={8} xs={24} className="tabMarginTopTwo">
+              <OurTestimonial />
+            </Col>
+            <Col lg={8} md={8} sm={8} xs={24} className="tabMarginTopTwo">
+              <OurTestimonial />
+            </Col>
+            <Col lg={8} md={8} sm={8} xs={24} className="tabMarginTopTwo">
+              <OurTestimonial />
+            </Col>
+          </Row>
+        </div>
+      </div>
+
       <div className={`mainGap ${styles.faqPart}`}>
         <div className="mainContainer">
           <Titles level={3} color="neutralColor" className="textCenter">
             Frequently Asked Questions
-          </Titles>{" "}
+          </Titles>
           <div className="marginBottomFour"></div>
           <CollapsePanel />
         </div>

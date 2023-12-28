@@ -23,7 +23,15 @@ export default function AuthLayout({
             </Col>
             <Col xs={24} lg={12} md={24} sm={24}>
               <div className="loginImage">
-                <LoginImageSection imagePath="/images/login.jpg" imageAlt="" />
+                <div className="mobileViewNone">
+                  <LoginImageSection
+                    imagePath="/images/login.jpg"
+                    imageAlt=""
+                  />
+                </div>
+                <div className="tabAndDasktopNone imgRound">
+                  <Image src="/images/Rectangle-6.png" alt="login-img.png" />
+                </div>
               </div>
             </Col>
           </Row>
