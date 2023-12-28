@@ -24,6 +24,11 @@
   text-align: right;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 .textStart {
   text-align: left;
 }
@@ -47,6 +52,9 @@ span b {
 .mainGap {
   padding: 60px 0;
 }
+.largeGap {
+  padding: 120px 0;
+}
 
 .img100 {
   width: 100%;
@@ -64,6 +72,7 @@ span b {
   height: 20px;
   margin-bottom: 25px;
 }
+
 .lineBox.blue {
   background: #1877f2;
 }
@@ -79,6 +88,7 @@ span b {
 .w100 {
   width: 100% !important;
 }
+
 .formPart {
   border-radius: 10px;
   border: 1px solid #e7e7f245;
@@ -87,15 +97,19 @@ span b {
 .marginTopOne {
   margin-top: 10px;
 }
+
 .marginTopTwo {
   margin-top: 20px;
 }
+
 .marginTopThree {
   margin-top: 30px;
 }
+
 .marginTopFour {
   margin-top: 40px;
 }
+
 .marginTopFive {
   margin-top: 50px;
 }
@@ -103,18 +117,23 @@ span b {
 .marginBottomOne {
   margin-bottom: 10px;
 }
+
 .marginBottomTwo {
   margin-bottom: 20px;
 }
+
 .marginBottomThree {
   margin-bottom: 30px;
 }
+
 .marginBottomFour {
   margin-bottom: 40px;
 }
+
 .marginBottomFive {
   margin-bottom: 50px;
 }
+
 .img100 .ant-image {
   width: 100% !important;
 }
@@ -123,6 +142,7 @@ span b {
   .tabViewCenter {
     text-align: center;
   }
+
   .lineBox {
     width: 50px !important;
     height: 10px !important;
@@ -132,9 +152,11 @@ span b {
   .tabMarginTopOne {
     margin-top: 10px !important;
   }
+
   .tabMarginTopTwo {
     margin-top: 20px !important;
   }
+
   .tabMarginTopThree {
     margin-top: 30px !important;
   }
@@ -142,9 +164,11 @@ span b {
   .tabPaddingBottomOne {
     padding-bottom: 10px !important;
   }
+
   .tabPaddingBottomTwo {
     padding-bottom: 20px !important;
   }
+
   .tabPaddingBottomThree {
     padding-bottom: 30px !important;
   }
@@ -172,15 +196,19 @@ span b {
   .mobileViewCenter {
     text-align: center !important;
   }
+
   .mobileMarginTopOne {
     margin-top: 10px !important;
   }
+
   .mobileMarginTopTwo {
     margin-top: 20px !important;
   }
+
   .mobileMarginTopThree {
     margin-top: 30px !important;
   }
+
   .MobileViewLeft {
     text-align: left !important;
   }

@@ -13,8 +13,6 @@ import CardLocations from "@/components/Public/CardLocations/page";
 import FreedomCard from "@/components/Public/FreedomCard";
 import NewsLatest from "@/components/Public/NewsLatest/page";
 import BannerForm from "@/components/Public/BannerForm";
-import SecondaryButton from "@/commonUl/SecondaryButton";
-
 export default function Home() {
   return (
     <>
@@ -261,8 +259,7 @@ export default function Home() {
 
       <div className={`mainGap ${styles.faqPart}`}>
         <div className="mainContainer">
-          <Titles level={3} color="neutralColor" className="textCenter">
-            {" "}
+          <Titles level={3} color="neutralColor" className="textCenter"> 
             Frequently Asked Questions
           </Titles>{" "}
           <div className="marginBottomFour"></div>
