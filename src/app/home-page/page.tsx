@@ -1,30 +1,26 @@
 import Titles from "@/commonUl/Titles";
-import ViewAll from "@/commonUl/ViewAll";
 import Image from "next/image";
 import { Col, Row } from "antd";
 import React from "react";
 import ParaText from "@/commonUl/ParaText";
 import LocationsCard from "@/commonUl/LocationsCard";
-import Numscroller from "@/commonUl/Numscroller";
 import SecondaryButton from "@/commonUl/SecondaryButton";
-import EmailFiled from "@/commonUl/emailFiled/page";
-import CardLocations from "@/commonUl/CardLocations/page";
-import FreedomCard from "@/commonUl/FreedomCard";
-import NewsLatest from "@/commonUl/NewsLatest/page";
+
 import styles from "./homePage.module.css";
 import CollapsePanel from "@/commonUl/CollapsePanel";
-import FooterPart from "@/commonUl/FooterPart/page";
-import HeaderMain from "@/commonUl/HeaderMain";
+
 import SelectBoxFiled from "@/commonUl/SelectBoxFiled";
 import { RiHomeLine } from "react-icons/ri";
+import ViewAll from "@/components/Public/ViewAll";
+import Numberscroller from "@/components/Public/Numscroller";
+import EmailFiled from "@/components/Public/emailFiled/page";
+import CardLocations from "@/components/Public/CardLocations/page";
+import FreedomCard from "@/components/Public/FreedomCard";
+import NewsLatest from "@/components/Public/NewsLatest/page";
 
 export default function Home() {
   return (
     <>
-      <div>
-        <HeaderMain />
-      </div>
-
       <div className={styles.bannerPart}>
         <div className="mainContainer">
           <Row align="middle" gutter={16}>
@@ -138,7 +134,7 @@ export default function Home() {
                 </ParaText>
                 <br />
                 <br />
-                <Numscroller />
+                <Numberscroller />
               </div>
             </Col>
             <Col lg={12} md={12} sm={12} xs={24} className="textEnd">
@@ -308,8 +304,6 @@ export default function Home() {
           <CollapsePanel />
         </div>
       </div>
-
-      <FooterPart />
     </>
   );
 }
