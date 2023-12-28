@@ -5,7 +5,7 @@ import { Typography } from "antd";
 const { Text } = Typography;
 
 interface CustomTextProps {
-  size?: "large" | "medium" | "small" | "extraSmall";
+  size?: "large" | "medium" | "small" | "extraSmall" | "textGraf";
   className?: string;
   children?: React.ReactNode;
   color?:
@@ -16,6 +16,7 @@ interface CustomTextProps {
     | "neutralColor"
     | "linkLight"
     | "darkgraydark"
+    | "paraGraf"
     | "darkgray";
 }
 
@@ -47,8 +48,12 @@ const ParaText = ({
             : 16
           : size === "extraSmall"
           ? screenWidth > 767
-            ? 18
-            : 16
+            ? 16
+            : 14
+          : size === "textGraf"
+          ? screenWidth > 767
+            ? 14
+            : 12
           : screenWidth > 767
           ? 16
           : 16
@@ -90,6 +95,8 @@ const ParaText = ({
               ? "#646464"
               : color == "darkgraydark"
               ? "#6C757D"
+              : color == "paraGraf"
+              ? "#121416"
               : color
           }`,
         }}

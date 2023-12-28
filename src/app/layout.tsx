@@ -4,6 +4,7 @@ import "./globals.css";
 import "./style.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer/page";
+import AntdConfig from "@/lib/AntdConfig";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -14,9 +15,11 @@ export const metadata = {
 const RootLayout = ({ children }: React.PropsWithChildren) => (
   <html lang="en">
     <body className={inter.className}>
-      <Header />
-      {children}
-      <Footer />
+      <AntdConfig>
+        <Header />
+        {children}
+        <Footer />
+      </AntdConfig>
     </body>
   </html>
 );
