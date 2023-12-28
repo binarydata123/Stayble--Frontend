@@ -1,0 +1,33 @@
+/* bookYourVacation css */
+.bookYourVacation {
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(35px);
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.borderRight {
+    border-right: 1px solid #fff;
+}
+
+.bookYour {
+    font-weight: 700 !important;
+}
+
+.flex {
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .bookYourVacation {
+        padding: 15px;
+        margin-top: 55px;
+    }
+
+    .bannerPart {
+        padding: 150px 0 0 0;
+    }
+}

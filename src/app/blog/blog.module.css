@@ -1,0 +1,53 @@
+.bannerblog {
+  background: url(/images/blog.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+
+.bannerblogSection {
+  background: url(/images/water.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.faqPart {
+  background: #f4faff;
+}
+
+.faqPart .ant-collapse {
+  background: #fff0 !important;
+}
+
+.exploreLocations {
+  background: rgba(0, 145, 247, 0.03);
+}
+
+.blogTitle h3 {
+  font-weight: 400 !important;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.blogBtn {
+  margin-top: 40px;
+}
+
+.blogTitle h4 {
+  font-size: 36px !important;
+  font-weight: 400 !important;
+}
+
+@media (max-width: 991px) {
+  .bannerPart {
+    padding: 150px 0 0 0;
+  }
+
+  .bannerblogSection {
+    padding: 50px 0;
+    margin-bottom: 40px;
+  }
+}

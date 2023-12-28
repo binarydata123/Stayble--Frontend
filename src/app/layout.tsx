@@ -1,6 +1,5 @@
 import React from "react";
 import { Inter } from "next/font/google";
-import StyledComponentsRegistry from "@/lib/AntdRegistry";
 import "./globals.css";
 import "./style.css";
 import Header from "@/components/Header";

@@ -1,35 +1,54 @@
 .largeButton {
   font-size: 24px !important;
 }
+
+.ant-image .ant-image-mask:hover {
+  opacity: 0 !important;
+}
+
 .mediumButton {
   font-size: 20px !important;
 }
+
 .smallButton {
   font-size: 18px !important;
 }
+
 .mainContainer {
   max-width: 1480px !important;
   width: 90% !important;
   margin: 0 auto;
 }
+
 .textEnd {
   text-align: right;
 }
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 .textStart {
   text-align: left;
 }
+
 .textCenter {
   text-align: center;
 }
+
 .weight400 {
-  font-weight: 400 !important ;
+  font-weight: 400 !important;
 }
+
 .weight900 {
   font-weight: 900 !important;
 }
+
 span b {
   font-weight: 600;
 }
+
 .mainGap {
   padding: 60px 0;
 }
@@ -41,9 +60,11 @@ span b {
   width: 100%;
   height: unset;
 }
+
 .yellowText {
   color: #ffe70f !important;
 }
+
 .lineBox {
   border-radius: 10px;
   background: #ffe70f;
@@ -51,18 +72,23 @@ span b {
   height: 20px;
   margin-bottom: 25px;
 }
+
 .lineBox.blue {
   background: #1877f2;
 }
+
 #leftGap {
   padding-left: 60px !important;
 }
+
 .smallGap {
   padding: 20px 0;
 }
+
 .w100 {
   width: 100% !important;
 }
+
 .formPart {
   border-radius: 10px;
   border: 1px solid #e7e7f245;
@@ -71,15 +97,19 @@ span b {
 .marginTopOne {
   margin-top: 10px;
 }
+
 .marginTopTwo {
   margin-top: 20px;
 }
+
 .marginTopThree {
   margin-top: 30px;
 }
+
 .marginTopFour {
   margin-top: 40px;
 }
+
 .marginTopFive {
   margin-top: 50px;
 }
@@ -87,18 +117,23 @@ span b {
 .marginBottomOne {
   margin-bottom: 10px;
 }
+
 .marginBottomTwo {
   margin-bottom: 20px;
 }
+
 .marginBottomThree {
   margin-bottom: 30px;
 }
+
 .marginBottomFour {
   margin-bottom: 40px;
 }
+
 .marginBottomFive {
   margin-bottom: 50px;
 }
+
 .img100 .ant-image {
   width: 100% !important;
 }
@@ -107,6 +142,7 @@ span b {
   .tabViewCenter {
     text-align: center;
   }
+
   .lineBox {
     width: 50px !important;
     height: 10px !important;
@@ -116,9 +152,11 @@ span b {
   .tabMarginTopOne {
     margin-top: 10px !important;
   }
+
   .tabMarginTopTwo {
     margin-top: 20px !important;
   }
+
   .tabMarginTopThree {
     margin-top: 30px !important;
   }
@@ -126,9 +164,11 @@ span b {
   .tabPaddingBottomOne {
     padding-bottom: 10px !important;
   }
+
   .tabPaddingBottomTwo {
     padding-bottom: 20px !important;
   }
+
   .tabPaddingBottomThree {
     padding-bottom: 30px !important;
   }
@@ -148,21 +188,27 @@ span b {
   .mainContainer {
     max-width: 90% !important;
   }
+
   .mobileViewNone {
     display: none !important;
   }
+
   .mobileViewCenter {
     text-align: center !important;
   }
+
   .mobileMarginTopOne {
     margin-top: 10px !important;
   }
+
   .mobileMarginTopTwo {
     margin-top: 20px !important;
   }
+
   .mobileMarginTopThree {
     margin-top: 30px !important;
   }
+
   .MobileViewLeft {
     text-align: left !important;
   }

@@ -4,21 +4,26 @@
   background-repeat: no-repeat;
   padding: 200px 0 0 0;
 }
+
 .stayConnect {
   background: url(/images/Book_online.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
 }
+
 .freedom {
   background: #012a59;
 }
+
 .faqPart {
   background: #f4faff;
 }
+
 .faqPart .ant-collapse {
   background: #fff0 !important;
 }
+
 .exploreLocations {
   background: rgba(0, 145, 247, 0.03);
 }
@@ -46,3 +51,4 @@
   }
 
 }
+
