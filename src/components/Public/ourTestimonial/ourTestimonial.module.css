@@ -1,0 +1,13 @@
+.testimonial {
+  background: #f5faff;
+  text-align: center;
+  padding: 11%;
+  margin-top: 80px;
+}
+.profileTestimonial img {
+  border-radius: 200px !important;
+  border: solid 9px #f8f8f8;
+}
+.profileTestimonial {
+  margin: -110px 0 15px 0;
+}

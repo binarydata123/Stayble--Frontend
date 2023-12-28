@@ -187,15 +187,21 @@ export default function Home() {
           </Titles>
           <div className="marginBottomThree"></div>
           <Row align="middle" gutter={40}>
-            <Col lg={8} md={8} sm={8} xs={24}>
-              <FreedomCard />
-            </Col>
-            <Col lg={8} md={8} sm={8} xs={24} className="mobileMarginTopTwo">
-              <FreedomCard />
-            </Col>
-            <Col lg={8} md={8} sm={8} xs={24} className="mobileMarginTopTwo">
-              <FreedomCard />
-            </Col>
+            <Col lg={8} md={8} sm={8} xs={24}></Col>
+            <Col
+              lg={8}
+              md={8}
+              sm={8}
+              xs={24}
+              className="mobileMarginTopTwo"
+            ></Col>
+            <Col
+              lg={8}
+              md={8}
+              sm={8}
+              xs={24}
+              className="mobileMarginTopTwo"
+            ></Col>
           </Row>
         </div>
       </div>
@@ -259,7 +265,7 @@ export default function Home() {
 
       <div className={`mainGap ${styles.faqPart}`}>
         <div className="mainContainer">
-          <Titles level={3} color="neutralColor" className="textCenter"> 
+          <Titles level={3} color="neutralColor" className="textCenter">
             Frequently Asked Questions
           </Titles>{" "}
           <div className="marginBottomFour"></div>
