@@ -5,7 +5,18 @@
 .ant-image .ant-image-mask:hover {
   opacity: 0 !important;
 }
-
+.darkSlateBlue {
+  color: #4378b4 !important;
+}
+.yellowBack {
+  border-radius: 5px;
+  background: #ffe70f;
+  color: #012a59;
+  padding: 3px 9px;
+}
+.dark {
+  color: #000 !important;
+}
 .mediumButton {
   font-size: 20px !important;
 }
@@ -41,7 +52,9 @@
 .weight400 {
   font-weight: 400 !important;
 }
-
+.weight600 {
+  font-weight: 600 !important;
+}
 .weight900 {
   font-weight: 900 !important;
 }
@@ -152,7 +165,7 @@ span b {
   border-radius: 12px;
 }
 .starReview svg {
-  font-size: 24px;
+  font-size: 20px;
   padding: 0 2px;
   color: #ffc107;
 }
@@ -165,7 +178,9 @@ span b {
 .img100 img {
   height: unset !important;
 } */
-
+.redText {
+  color: #f91d1d !important;
+}
 @media (max-width: 1199px) {
   .tabViewCenter {
     text-align: center;

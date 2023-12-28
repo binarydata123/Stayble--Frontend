@@ -1,22 +1,27 @@
-.bannerPartContact {
+.bannerPartLocations {
   background: url(/images/Book_online.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 0;
 }
-.googleMap iframe {
-  border-radius: 25px !important;
-  margin-top: -200px;
+.enjoySummer {
+  background: url(/images/Book_online.png);
 }
-
+.summer {
+  background-color: #ffffffd1;
+  padding: 100px 0 350px 0;
+}
+.trendingTours {
+  background: #f5f5f5;
+}
 @media (max-width: 991px) {
   .bannerPartContact {
     padding: 150px 0 100px 0;
   }
+  .summer {
+    padding: 60px 0 150px 0;
+  }
 }
 
 @media (max-width: 767px) {
-  .googleMap iframe {
-    margin-top: 60px;
-  }
 }
