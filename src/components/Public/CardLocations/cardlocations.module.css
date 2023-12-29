@@ -7,11 +7,13 @@
 .locationsCard {
   position: relative;
 }
+
 .locationsCard img {
   width: 100%;
-  height: unset;
+  height: 100%;
   border-radius: 16px;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 
 @media (max-width: 991px) {
@@ -20,12 +22,15 @@
     bottom: 30px;
     left: 13px;
   }
+
   .textBoxCard span {
     font-size: 18px !important;
   }
+
   .textBoxCard h4 {
     font-size: 24px !important;
   }
+
   .textBoxCard button.smallButton {
     padding: 8px 20px !important;
   }

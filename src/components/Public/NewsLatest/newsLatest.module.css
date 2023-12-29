@@ -1,7 +1,17 @@
- 
 .newsLatest img {
     width: 100%;
     height: unset;
     border-radius: 16px;
     margin-bottom: 10px;
-} 
+}
+.bestQuality {
+    background: rgba(0, 145, 247, 0.03);
+    padding: 145px 0px;
+  }
+.borderLeftColor {
+    border-left: 2px solid #0091F7;
+}
+
+.borderLeftColor span {
+    padding-left: 10px !important;
+}

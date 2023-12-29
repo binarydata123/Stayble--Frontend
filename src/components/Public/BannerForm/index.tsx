@@ -5,43 +5,52 @@ import ParaText from "@/commonUl/ParaText";
 import { Col, Row } from "antd";
 import SecondaryButton from "@/commonUl/SecondaryButton";
 import { HomeIcon } from "@heroicons/react/16/solid";
+import SelectBoxFiled from "@/commonUl/SelectBoxFiled";
 export default function BannerForm() {
   return (
     <>
-      <div className={styles.bookYourVacation}>
-        <ParaText size="medium" color="light" className={styles.bookYour}>
-          Book your vacation
-        </ParaText>
-        <Row align="middle" gutter={16}>
-          <Col lg={19} md={19} sm={19} xs={24}>
-            <div className="formPart">
-              <Row align="middle" gutter={16}>
-                <Col lg={9} md={9} sm={9} xs={24}>
-                  <Row align="middle">
-                    <Col lg={16}>
-                      <Row align="middle" className={styles.borderRight}>
-                        <Col lg={4}>
-                          <div className={styles.flex}>
-                            <HomeIcon width={20} />
-                          </div>
-                        </Col>
-                        <Col lg={20}>
-                          <span> Hello</span>
-                        </Col>
-                      </Row>
-                    </Col>
-                  </Row>
-                </Col>
-              </Row>
-            </div>
-          </Col>
-          <Col lg={5} md={5} sm={5} xs={24} className="textEnd">
-            <SecondaryButton
-              label="Find A Room"
-              className={`mediumButton w100 ${styles.SubscribeButton}`}
-            />
-          </Col>
-        </Row>
+      <div className="mainContainer">
+        <div className={styles.bookYourVacation}>
+          <ParaText size="medium" color="light" className={styles.bookYour}>
+            What are you looking for
+          </ParaText>
+          <div className={styles.formPart}>
+            <Row align="middle" gutter={16}>
+              <Col xxl={7} xl={7} lg={7} md={7} sm={24} xs={24}>
+                <div className={styles.borderClass}>
+                  <span className={styles.location}>Location</span>
+                  <SelectBoxFiled />
+                </div>
+              </Col>
+              <Col xxl={7} xl={7} lg={7} md={7} sm={24} xs={24}>
+                <div className={styles.borderClass}>
+                  <span className={styles.location}>Room Type</span>
+                  <SelectBoxFiled />
+                </div>
+              </Col>
+              <Col xxl={7} xl={7} lg={7} md={7} sm={24} xs={24}>
+                <div className={styles.borderClass}>
+                  <span className={styles.location}>Checkin</span>
+                  <SelectBoxFiled />
+                </div>
+              </Col>
+              <Col
+                xxl={3}
+                xl={3}
+                lg={3}
+                md={24}
+                sm={24}
+                xs={24}
+                className="textEnd classAddMobile"
+              >
+                <SecondaryButton
+                  label="Find A Room"
+                  className={`mediumButtonHome w100 ${styles.SubscribeButton}`}
+                />
+              </Col>
+            </Row>
+          </div>
+        </div>
       </div>
     </>
   );

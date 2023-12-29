@@ -1,8 +1,10 @@
 .bannerPart {
-  background: url(/images/hero_banner.png);
+  background: url(/images/home/hero_banner.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px 0 0 0;
+  padding: 170px 0 0px 0;
+  height: 90vh;
+  background-position: bottom;
 }
 
 .stayConnect {
@@ -14,6 +16,7 @@
 
 .freedom {
   background: #012a59;
+  padding: 100px 0px;
 }
 
 .faqPart {
@@ -25,8 +28,10 @@
 }
 
 .exploreLocations {
-  background: rgba(0, 145, 247, 0.03);
+  background: #fff;
 }
+
+
 /* bookYourVacation css */
 .bookYourVacation {
   border-radius: 20px 20px 0px 0px;
@@ -37,8 +42,13 @@
   margin: 0 auto;
   margin-top: 140px;
 }
+
 .bookYour {
   font-weight: 700 !important;
+}
+
+.bannerPart h1 {
+  padding-top: 120px;
 }
 
 @media (max-width: 991px) {
@@ -46,7 +56,92 @@
     padding: 15px;
     margin-top: 55px;
   }
+
+  .bookYourVacation span {
+    text-align: center;
+    display: block;
+  }
+
   .bannerPart {
-    padding: 150px 0 0 0;
+    padding: 100px 0 0px 0;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+/* bestQuality */
+.bestQuality {
+  background: rgba(0, 145, 247, 0.03);
+  padding: 145px 0px;
+}
+
+.freeWiFI {
+  padding: 25px 0px;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.kingRoom {
+  padding: 0px 25px;
+}
+
+
+/* suitesNeeds */
+
+.suitesNeeds {
+  padding: 120px 0px;
+}
+
+
+/* bookOnline */
+.bookOnline {
+  background: url(/images/home/Offers_section.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 200px 0;
+  background-position: bottom;
+}
+
+/* acordian */
+
+.accordianStyle {
+  background-color: #fff;
+  padding: 120px 0px;
+}
+
+@media(max-width:1366px) {
+  .homePage_bannerPart__ATzE0 {
+    padding: 60px 0 0px 0;
+    height: unset;
+  }
+}
+
+@media(max-width:991px) {
+  .bestQuality {
+    padding: 46px 0px;
+  }
+
+  .suitesNeeds {
+    padding: 50px 0px;
+  }
+
+  .bookOnline {
+    padding: 60px 0 60px 0;
+  }
+
+  .accordianStyle {
+    background-color: #fff;
+    padding: 50px 0px 130px;
+  }
+
+  .mainGap {
+    padding: 25px 0;
+  }
+
+  .kingRoom {
+    padding: 40px 0px;
   }
 }

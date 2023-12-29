@@ -5,6 +5,7 @@ import Titles from "@/commonUl/Titles";
 import Image from "next/image";
 import { FaCalendarDay } from "react-icons/fa6";
 import { LuArrowRightCircle } from "react-icons/lu";
+import SecondaryButton from "@/commonUl/SecondaryButton";
 
 export default function NewsLatest() {
   return (
@@ -12,28 +13,30 @@ export default function NewsLatest() {
       <div className="marginBottomTwo">
         <div className={styles.newsLatest}>
           <Image
-            src="/images/video-img.png"
+            src="/images/home/card8.png"
             alt="video image"
             width={800}
             height={800}
           />
           <div className="marginBottomTwo"></div>
-          <a href="#">
-            <ParaText size="medium" color="darkgray">
-              <FaCalendarDay />
-              <b> September 23, 2019</b>
-            </ParaText>
-          </a>
+          <br />
+          <div className={styles.borderLeftColor}>
+            <span> MARCH 14, 2022</span>
+          </div>
+          <br />
+          <br />
           <Titles level={4} color="neutralColor">
             It is a long established fact that a reader will be distracted
           </Titles>
+          <br />
+          <ParaText size="medium" color="darkgray">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </ParaText>
+          <br />
           <div className="marginBottomTwo"></div>
           <a href="#">
-            <ParaText size="large" color="linkLight">
-              <b>
-                Read More <LuArrowRightCircle />
-              </b>
-            </ParaText>
+            <SecondaryButton label="Read More" />
           </a>
         </div>
       </div>

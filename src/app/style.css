@@ -11,22 +11,37 @@
 .ant-image .ant-image-mask:hover {
   opacity: 0 !important;
 }
+
 .darkSlateBlue {
   color: #4378b4 !important;
 }
+
 .yellowBack {
   border-radius: 5px;
   background: #ffe70f;
   color: #012a59;
   padding: 3px 9px;
 }
+
 .dark {
   color: #000 !important;
 }
 
+.mediumButton {
+  font-size: 20px !important;
+}
+
+.mediumButtonHome {
+  font-size: 16px !important;
+}
+
+.smallButton {
+  font-size: 18px !important;
+}
+
 .mainContainer {
   max-width: 1480px !important;
-  width: 90% !important;
+  width: 100% !important;
   margin: 0 auto;
 }
 
@@ -110,6 +125,11 @@ span b {
   background: #1877f2;
 }
 
+.lineBox.blue.yellowText {
+  color: #ffe70f !important;
+}
+
+
 #leftGap {
   padding-left: 60px !important;
 }
@@ -120,11 +140,6 @@ span b {
 
 .w100 {
   width: 100% !important;
-}
-
-.formPart {
-  border-radius: 10px;
-  border: 1px solid #e7e7f245;
 }
 
 .marginTopNone {
@@ -221,7 +236,11 @@ span b {
 }
 .leftCardForm .width80 {
   margin: 0 auto !important;
+
+.redText {
+  color: #f91d1d !important;
 }
+
 @media (max-width: 1199px) {
   .tabViewCenter {
     text-align: center;
@@ -271,12 +290,21 @@ span b {
     padding-left: 0 !important;
   }
 
+  .classAddMobile {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
   .largeGap {
     padding: 60px 0;
   }
 
   .undefined {
     overflow: hidden;
+  }
+
+  .mainGap {
+    padding: 25px 0;
   }
 }
 
