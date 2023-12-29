@@ -38,7 +38,7 @@ export default function BannerForm() {
                 xxl={3}
                 xl={3}
                 lg={3}
-                md={3}
+                md={24}
                 sm={24}
                 xs={24}
                 className="textEnd classAddMobile"

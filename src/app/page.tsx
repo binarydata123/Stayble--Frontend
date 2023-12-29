@@ -93,14 +93,14 @@ export default function Home() {
       <section className={styles.bestQuality}>
         <div className="mainContainer">
           <Row gutter={16}>
-            <Col lg={12} md={12} sm={12} xs={24}>
+            <Col lg={12} md={24} sm={24} xs={24}>
               <div className="lineBox blue"></div>
               <Titles level={2} color="neutralColor">
                 Enjoy Complete and best <br /> quality Facilities
               </Titles>
               <ShowImage size={100} src="/images/home/circle.png" />
             </Col>
-            <Col lg={12} md={12} sm={12} xs={24}>
+            <Col lg={12} md={24} sm={24} xs={24}>
               <div className={styles.bestTitle}>
                 <ParaText size="large" color="dark">
                   Clean, spacious suites. Affordable prices. Flexible options.
@@ -180,7 +180,7 @@ export default function Home() {
         <div className="mainContainer">
           <div className="lineBox blue"></div>
           <Row>
-            <Col lg={8} md={12} sm={6} xs={24}>
+            <Col lg={8} md={24} sm={24} xs={24}>
               <Titles level={2} color="neutralColor">
                 Suites that suit <br className="mobileViewNone" /> your needs
               </Titles>
@@ -190,10 +190,10 @@ export default function Home() {
                 our suites deliver on comfort and convenience.
               </ParaText>
             </Col>
-            <Col lg={8} md={12} sm={6} xs={24}>
+            <Col lg={8} md={24} sm={24} xs={24}>
               <ShowImage size={100} src="/images/home/image 8.png" />
             </Col>
-            <Col lg={8} md={12} sm={6} xs={24}>
+            <Col lg={8} md={24} sm={24} xs={24}>
               <div className={styles.kingRoom}>
                 <Titles level={5} color="neutralColor">
                   King Room

@@ -112,6 +112,13 @@
   padding: 120px 0px;
 }
 
+@media(max-width:1366px) {
+  .homePage_bannerPart__ATzE0 {
+    padding: 60px 0 0px 0;
+    height: unset;
+  }
+}
+
 @media(max-width:991px) {
   .bestQuality {
     padding: 46px 0px;
