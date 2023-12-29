@@ -1,7 +1,13 @@
 .largeButton {
   font-size: 24px !important;
 }
+.mediumButton {
+  font-size: 20px !important;
+}
 
+.smallButton {
+  font-size: 18px !important;
+}
 .ant-image .ant-image-mask:hover {
   opacity: 0 !important;
 }
@@ -16,13 +22,6 @@
 }
 .dark {
   color: #000 !important;
-}
-.mediumButton {
-  font-size: 20px !important;
-}
-
-.smallButton {
-  font-size: 18px !important;
 }
 
 .mainContainer {
@@ -189,18 +188,39 @@ span b {
   padding: 0 2px;
   color: #ffc107;
 }
-
-/* .img100 {
-  height: unset !important;
+.w100 .ant-image {
+  width: 100% !important;
 }
-.img100 .ant-image {
-  height: unset !important;
+.align {
+  align-items: center;
 }
-.img100 img {
-  height: unset !important;
-} */
+.dFlex {
+  display: flex !important;
+}
+#footerPart .dFlex.align {
+  gap: 30px;
+  justify-content: end;
+}
 .redText {
   color: #f91d1d !important;
+}
+.heightUnset {
+  height: unset !important;
+}
+.heightUnset .ant-image {
+  height: unset !important;
+}
+.heightUnset .ant-image img {
+  height: unset !important;
+}
+.width80 {
+  width: 80% !important;
+}
+.width80 .ant-image {
+  width: 80% !important;
+}
+.leftCardForm .width80 {
+  margin: 0 auto !important;
 }
 @media (max-width: 1199px) {
   .tabViewCenter {
@@ -284,7 +304,12 @@ span b {
   .mobileMarginTopThree {
     margin-top: 30px !important;
   }
-
+  .mobileCenter {
+    text-align: center;
+  }
+  #footerPart .dFlex.align {
+    justify-content: center;
+  }
   .MobileViewLeft {
     text-align: left !important;
   }
