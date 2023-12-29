@@ -79,3 +79,17 @@ a {
   --tinyBorderRadius: 6px;
 
 }
+
+.ant-select-selector {
+  border: none !important;
+  font-size: 20px !important;
+}
+
+svg {
+  color: #012A59;
+  font-size: 16px;
+}
+
+span.ant-select-selection-placeholder {
+  color: #012A59 !important;
+}

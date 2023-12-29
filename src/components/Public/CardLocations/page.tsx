@@ -4,13 +4,12 @@ import ParaText from "@/commonUl/ParaText";
 import Titles from "@/commonUl/Titles";
 import Image from "next/image";
 import SecondaryButton from "@/commonUl/SecondaryButton";
-
 export default function CardLocations() {
   return (
     <>
       <div className={styles.locationsCard}>
         <Image
-          src="/images/Rectangle-5.png"
+          src="/images/home/card.jpg"
           alt="Your External Image"
           width={800}
           height={800}

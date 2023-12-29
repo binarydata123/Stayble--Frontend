@@ -1,19 +1,10 @@
 .selectFiled {
   width: 100% !important;
   background: #fff0 !important;
-  color: #fff !important;
-  font-size: 17px !important;
+  color: #012A59 !important;
+  font-size: 20px !important;
   font-style: normal !important;
   font-weight: 600 !important;
   line-height: 20px !important;
   letter-spacing: -0.22px !important;
-}
-.selectFiled .ant-select-selector {
-  background: #fff0 !important;
-  border: none !important;
-}
-.ant-select-selector {
-  position: relative;
-  background-color: #fff0 !important;
-  border: 1px solid #fff0 !important;
 }

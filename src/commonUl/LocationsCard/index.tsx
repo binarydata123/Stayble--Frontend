@@ -7,27 +7,24 @@ import styles from "./locationsCard.module.css";
 export default function LocationsCard() {
   return (
     <>
-      <div className="textCenter">
+      <div className="textLeft">
         <div className={styles.locationsCard}>
           <Image
-            src="/images/card-img.png"
+            src="/images/home/card5.png"
             alt="Your External Image"
             width={500}
             height={500}
           />
           <br />
-          <ParaText size="medium" color="primaryColor">
-            <b>Kissimmee East</b>
-          </ParaText>
-          <Titles level={5} color="neutralColor">
-            {" "}
-            Experience Kissimmee
+          <br />
+          <Titles level={5} color="light">
+            Stay Flexible.
           </Titles>
-          <a href="#">
-            <ParaText size="medium" color="darkgray">
-              View Locations
-            </ParaText>
-          </a>
+          <br />
+          <ParaText size="large" color="light">
+            Easy booking, no long-term commitment, no credit check, and one bill
+            for all the essentials lets you come and go on your time.
+          </ParaText>
         </div>
       </div>
     </>

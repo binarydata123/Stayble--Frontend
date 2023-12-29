@@ -1,16 +1,16 @@
 /* bookYourVacation css */
-.bookYourVacation {
-    border-radius: 20px 20px 0px 0px;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(35px);
+.formPart {
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #D8D8D8;
     padding: 30px;
-    width: 90%;
+    max-width: 1480px;
     margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 30px;
 }
 
-.borderRight {
-    border-right: 1px solid #fff;
+.bookYourVacation {
+    padding-top: 270px;
 }
 
 .bookYour {
@@ -19,6 +19,23 @@
 
 .flex {
     display: flex;
+}
+
+.location {
+    color: #9F9F9F;
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 11px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.borderClass {
+    border-bottom: 1px solid #9F9F9F;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 991px) {
@@ -30,4 +47,14 @@
     .bannerPart {
         padding: 150px 0 0 0;
     }
+
+    .formPart {
+        padding: 10px;
+        margin-top: 35px;
+    }
+
+    .location {
+        margin-top: 30px;
+    }
+
 }
