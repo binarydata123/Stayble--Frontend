@@ -8,9 +8,7 @@
 .ftPart {
   border-bottom: solid 1px #103b6b;
 }
-.columGap {
-  padding: 50px 0 50px 0;
-}
+
 ul.footerSocialMediaLiks {
   margin: 10px 0 0 0;
   padding: 0;
@@ -18,33 +16,38 @@ ul.footerSocialMediaLiks {
 ul.footerSocialMediaLiks li {
   list-style: none;
   display: inline;
-  margin: 0 30px 0 0;
+  margin: 0 8px 0 0;
 }
 ul.footerSocialMediaLiks li a {
-  color: #ffe70f;
+  color: #fff;
   font-size: 30px;
 }
 
-.footerLiks {
+.footerLinks {
   padding: 0;
   margin: 25px 0 0 0;
 }
-.footerLiks a {
+.footerLinks a {
   color: #d9d9d9;
   font-size: 17px;
   font-weight: 400;
   line-height: 36px;
 }
-.footerLiks svg {
-  margin-right: 25px;
+
+.footerLinks svg {
+  margin-right: 9px;
   position: relative;
-  top: 5px;
-  font-size: 22px;
-  color: #fff;
+  top: 2px;
+  font-size: 16px;
+  color: #9c9a98;
 }
 .borderFooter {
   border-right: solid 1px #103b6b;
 }
+.dFlex {
+  display: flex;
+}
+
 @media (max-width: 991px) {
   .columGap {
     padding: 30px 0 30px 0;
