@@ -1,0 +1,26 @@
+/* locationsCard css */
+.offersCard img {
+  width: 100%;
+  height: unset;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.spacing {
+  width: 100px;
+}
+
+.spacing {
+  padding: 0 35px;
+}
+
+.marginRight {
+  margin-left: 10px;
+}
+
+.bgColorChange {
+  padding: 25px;
+  border-radius: 0px 0px 16px 16px;
+  border: 1px solid var(--stayable_border, #D8D8D8);
+  background: #FFF;
+  margin-top: -20px;
+}

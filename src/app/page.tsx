@@ -12,6 +12,7 @@ import NewsLatest from "@/components/Public/NewsLatest/page";
 import BannerForm from "@/components/Public/BannerForm";
 import ShowImage from "@/commonUl/ShowImage";
 import SecondaryButton from "@/commonUl/SecondaryButton";
+import VerticalTabsHome from "@/components/Public/VerticalTabsHome";
 export default function Home() {
   return (
     <>
@@ -262,12 +263,11 @@ export default function Home() {
                 Frequently Asked Questions
               </Titles>
               <div className="marginBottomFour"></div>
-              <CollapsePanel />
+              <VerticalTabsHome />
             </Col>
           </Row>
         </div>
       </div>
-
       <section className={styles.stayFiled}>
         <div className={`mainGap ${styles.freedom}`}>
           <div className="mainContainer">

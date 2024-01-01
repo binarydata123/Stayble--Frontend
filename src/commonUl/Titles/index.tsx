@@ -5,7 +5,7 @@ import { Typography } from "antd";
 const { Title } = Typography;
 
 interface HProps {
-  level?: 1 | 2 | 3 | 4 | 5 | 6;
+  level?: 1 | 2 | 3 | 4 | 5;
   className?: string;
   content?: any;
   children?: React.ReactNode;
@@ -55,10 +55,6 @@ const Titles = ({
           ? screenWidth > 767
             ? 24
             : 18
-          : level === 6
-          ? screenWidth > 767
-            ? 40
-            : 26
           : screenWidth > 767
           ? 16
           : 10
@@ -102,7 +98,7 @@ const Titles = ({
               : color == "yellowText"
               ? "#FFE70F"
               : color
-          }`,
+          }`,                  
         }}
       >
         {content || children}
