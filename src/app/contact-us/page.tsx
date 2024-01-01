@@ -135,7 +135,8 @@ export default function page() {
 
               <div className="marginTopTwo"></div>
               <ParaText size="small">
-                <b>
+                <b>                  height="600"
+
                   <Image
                     src="/images/Rectangle-5.png"
                     alt="Mask Group"
