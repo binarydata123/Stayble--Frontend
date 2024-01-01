@@ -1,0 +1,53 @@
+.menuDash {
+  background: #092f64;
+  padding: 32px 24px;
+  height: 100vh;
+}
+.menuDash ul.ant-menu-dark {
+  background: #fff0 !important;
+}
+.menuDash li.ant-menu-item-selected {
+  background: #ffffff !important;
+  border-radius: 8px !important;
+}
+.menuDash li {
+  padding: 8px 12px !important;
+}
+.menuDash li:hover {
+  background: #fff !important;
+}
+#menuId ul li:hover img {
+  cursor: pointer;
+  filter: grayscale(66%) brightness(28%) sepia(100%) hue-rotate(-180deg)
+    saturate(300%) contrast(1);
+}
+.menuDash li.ant-menu-item-selected img {
+  cursor: pointer;
+  filter: grayscale(66%) brightness(28%) sepia(100%) hue-rotate(-180deg)
+    saturate(300%) contrast(1);
+}
+
+.menuDash li:hover span {
+  color: #1366d9 !important;
+}
+.menuDash li.ant-menu-item-selected span.ant-menu-title-content {
+  color: #1366d9 !important;
+}
+.menuDash li span.ant-menu-title-content {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  line-height: 21px;
+}
+.menuDash li {
+  margin: 14px 0 !important;
+  height: 40px !important;
+}
+.menuDash li .menuIcon {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px -2px 0;
+}
+#menuId .ant-menu-dark > .ant-menu {
+  background: #0b1c30 !important;
+}

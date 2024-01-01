@@ -1,11 +1,20 @@
 .inputWithIcon input {
-    width: 100%;
-    display: block;
-    font-size: 16px !important;
-    line-height: 17.64px;
-    font-weight: 400;
-    text-align: left;
-    border-radius: 12px;
-    border: 1px solid #D4D7E3 !important;
-    background: #F7FBFF;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: -0.5px !important;
+}
+.inputWithIcon span {
+  border-radius: 4px !important;
+  border: 1px solid var(--Grayscale-04, #bababa) !important;
+  background: var(--Grayscale-White, #fff) !important;
+}
+.inputWithIcon span span {
+  border: none !important;
+}
+.inputWithIcon ::placeholder {
+  color: #999999;
 }
