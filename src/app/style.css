@@ -97,6 +97,14 @@ span b {
   padding: 60px 0;
 }
 
+.largeGapBottom {
+  padding-bottom: 120px;
+}
+
+.largeGapTop {
+  padding-top: 120px;
+}
+
 .largeGap {
   padding: 120px 0;
 }
@@ -226,6 +234,13 @@ span b {
   position: relative;
   top: 1px;
 }
+
+.starReview1 svg {
+  font-size: 16px;
+  padding: 0 2px;
+  color: #ffc107;
+}
+
 .w100 .ant-image {
   width: 100% !important;
 }
@@ -273,6 +288,18 @@ span b {
 
 .redText {
   color: #f91d1d !important;
+}
+
+.ant-picker {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 10px 0px;
+}
+
+.ant-select-selector {
+  width: 100% !important;
+  background: transparent !important;
 }
 
 @media (max-width: 1199px) {
@@ -375,7 +402,7 @@ span b {
     justify-content: center;
   }
 
-  .MobileViewLeft {
+  .mobileViewLeft {
     text-align: left !important;
   }
 }
