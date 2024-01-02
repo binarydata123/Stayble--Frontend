@@ -1,0 +1,15 @@
+.headerPart {
+  display: none !important;
+}
+#footerPart {
+  display: none !important;
+}
+.leftBack {
+  background: #092f64 !important;
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}

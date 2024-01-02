@@ -43,7 +43,7 @@
 
 .mainContainer {
   max-width: 1480px !important;
-  width: 100% !important;
+  width: 95% !important;
   margin: 0 auto;
 }
 
@@ -68,11 +68,15 @@
 .weight400 {
   font-weight: 400 !important;
 }
-
+.weight500 {
+  font-weight: 500 !important;
+}
 .weight600 {
   font-weight: 600 !important;
 }
-
+.weight700 {
+  font-weight: 700 !important;
+}
 .paddingLeftTwenty {
   padding-left: 20px;
 }
@@ -139,7 +143,6 @@ span b {
   color: #ffe70f !important;
 }
 
-
 #leftGap {
   padding-left: 60px !important;
 }
@@ -199,7 +202,9 @@ span b {
 .marginBottomFive {
   margin-bottom: 50px;
 }
-
+.marginTopHalf {
+  margin-top: 5px;
+}
 .img100 .ant-image {
   width: 100% !important;
 }
@@ -207,9 +212,31 @@ span b {
 .imgRound img {
   border-radius: 12px;
 }
-
+.borderRadius10 {
+  border-radius: 14px;
+}
+.borderRadius10 img {
+  border-radius: 14px;
+}
+.borderRadius100 img {
+  border-radius: 100px;
+}
 .starReview svg {
   font-size: 20px;
+  padding: 0 2px;
+  color: #ffc107;
+}
+.textGraf12 {
+  font-size: 12px !important;
+}
+.textGraf12 svg {
+  font-size: 12px;
+  position: relative;
+  top: 1px;
+}
+
+.starReview1 svg {
+  font-size: 16px;
   padding: 0 2px;
   color: #ffc107;
 }

@@ -1,0 +1,14 @@
+.todayBookingCard {
+  border-radius: 8px;
+  background: #0070f5;
+  padding: 16px;
+}
+
+.smallTitle {
+  font-size: 18px !important;
+  color: #858d9d !important;
+  font-weight: 500 !important;
+}
+.gapSpan {
+  padding: 0 8px !important;
+}

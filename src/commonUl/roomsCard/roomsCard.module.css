@@ -1,0 +1,14 @@
+.roomsCard {
+  border-radius: 8px;
+  border: 1px solid var(--Grey-Grey-100, #d0d3d9);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+  padding: 16px;
+}
+
+.smallTitle {
+  font-size: 18px !important;
+  color: #858d9d !important;
+  font-weight: 500 !important;
+}
