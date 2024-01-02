@@ -35,7 +35,7 @@ export default function page() {
                     </div>
                     <div className="marginTopFour"></div>
 
-                    <Titles level={6} color="yellowText">
+                    <Titles level={5} color="yellowText">
                       Build your better <br className="mobileNone" /> customer
                       experience
                     </Titles>
@@ -63,10 +63,7 @@ export default function page() {
                       <FormInput placeHolder="Confirm New Password " />
 
                       <div className="marginTopThree"></div>
-                      <SecondaryButton
-                        label="LOGIN"
-                        className="largeButton w100"
-                      />
+                      <SecondaryButton label="LOGIN" className="w100" />
 
                       <div className="marginTopTwo"></div>
                       <div className="textCenter">

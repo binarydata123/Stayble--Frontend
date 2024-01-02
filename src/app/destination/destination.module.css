@@ -1,0 +1,71 @@
+.bannerblog {
+  background: url(/images/single.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+
+.faqPart {
+  background: #f4faff;
+}
+
+.destinationText {
+  padding: 80px 0px;
+}
+
+.fontSizeFourty {
+  font-size: 40px !important;
+}
+
+.heartBtn {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  background: #FFE70F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.shareBtn {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  border: 1px solid #D8D8D8;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.marginLeft {
+  margin-left: 10px;
+}
+
+.marginRight {
+  margin-right: 10px;
+}
+
+.travelDestinationsSection {
+  background-color: #F5F5F5;
+  padding: 120px 0px;
+}
+
+.bookDestination {
+  border-radius: 18px;
+  background: #F4FBFF;
+  margin-top: -200px;
+  padding: 30px;
+}
+
+.bookDestination h3 {
+  font-size: 36px !important;
+}
+
+.dateStyle {
+  border-bottom: 1px solid #D8D8D8;
+  padding: 20px 0px;
+}

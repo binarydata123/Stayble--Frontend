@@ -13,12 +13,12 @@ export default function DashboardCard() {
       <div className={styles.dashCardUpdate}>
         <Row align="middle" gutter={16}>
           <Col lg={12} md={12} sm={12} xs={12}>
-            <Titles level={4} color="light" className="weight700">
+            <Titles level={4} color="light">
               <b>23</b>
             </Titles>
           </Col>
           <Col lg={12} md={12} sm={12} xs={12} className="textEnd">
-            <ParaText size="medium" color="light" className="weight500">
+            <ParaText size="medium" color="light">
               Check-in
             </ParaText>
             <br />

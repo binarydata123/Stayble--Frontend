@@ -8,9 +8,11 @@
 .faqPart {
   background: #f4faff;
 }
+
 .faqPart .ant-collapse {
   background: #fff0 !important;
 }
+
 .exploreLocations {
   background: rgba(0, 145, 247, 0.03);
 }
@@ -35,19 +37,22 @@
   .bannerPart {
     padding: 150px 0 0 0;
   }
+
   .bannerPartAbout {
     padding: 160px 0 100px 0;
   }
+
   .beautyWorld {
     padding: 60px 0;
   }
+
   .beautyWorld h1 {
     font-size: 30px !important;
   }
+
   .imgOverlap {
     margin: 50px 0 0 0;
   }
 }
 
-@media (max-width: 767px) {
-}
+@media (max-width: 767px) {}

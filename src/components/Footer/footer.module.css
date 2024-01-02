@@ -1,10 +1,12 @@
 .footerPart {
   background: var(--Main_Blue_Color, #012a59);
 }
+
 .followUs {
   padding: 40px 0;
   border-bottom: solid 1px #103b6b;
 }
+
 .ftPart {
   border-bottom: solid 1px #103b6b;
 }
@@ -13,11 +15,13 @@ ul.footerSocialMediaLiks {
   margin: 10px 0 0 0;
   padding: 0;
 }
+
 ul.footerSocialMediaLiks li {
   list-style: none;
   display: inline;
   margin: 0 8px 0 0;
 }
+
 ul.footerSocialMediaLiks li a {
   color: #fff;
   font-size: 30px;
@@ -27,6 +31,7 @@ ul.footerSocialMediaLiks li a {
   padding: 0;
   margin: 25px 0 0 0;
 }
+
 .footerLinks a {
   color: #d9d9d9;
   font-size: 17px;
@@ -41,10 +46,12 @@ ul.footerSocialMediaLiks li a {
   font-size: 16px;
   color: #9c9a98;
 }
+
 .borderFooter {
   border-right: solid 1px #103b6b;
 }
-.dFlex {
+
+.flexContainer {
   display: flex;
 }
 

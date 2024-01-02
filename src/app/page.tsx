@@ -5,13 +5,13 @@ import React from "react";
 import ParaText from "@/commonUl/ParaText";
 import LocationsCard from "@/commonUl/LocationsCard";
 import styles from "./homePage.module.css";
-import CollapsePanel from "@/commonUl/CollapsePanel";
 import ViewAll from "@/components/Public/ViewAll";
 import CardLocations from "@/components/Public/CardLocations/page";
 import NewsLatest from "@/components/Public/NewsLatest/page";
 import BannerForm from "@/components/Public/BannerForm";
 import ShowImage from "@/commonUl/ShowImage";
 import SecondaryButton from "@/commonUl/SecondaryButton";
+import VerticalTabsHome from "@/components/Public/VerticalTabsHome";
 export default function Home() {
   return (
     <>
@@ -32,7 +32,7 @@ export default function Home() {
               <Titles
                 level={5}
                 color="light"
-                className="weight400 mobileViewNone"
+                className="mobileViewNone"
               >
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
@@ -262,12 +262,11 @@ export default function Home() {
                 Frequently Asked Questions
               </Titles>
               <div className="marginBottomFour"></div>
-              <CollapsePanel />
+              <VerticalTabsHome />
             </Col>
           </Row>
         </div>
       </div>
-
       <section className={styles.stayFiled}>
         <div className={`mainGap ${styles.freedom}`}>
           <div className="mainContainer">

@@ -55,7 +55,7 @@ export default function Header() {
             </Col>
             <Col xl={4} md={24} xs={24} className="textEnd headerButton">
               <div className={`  ${isMenuOpen ? "open" : "headBtnMobile"}`}>
-                <SecondaryButton label="Book Now" className="smallButton" />
+                <SecondaryButton label="Book Now" />
               </div>
             </Col>
           </Row>

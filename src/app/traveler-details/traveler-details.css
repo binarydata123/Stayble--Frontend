@@ -1,0 +1,133 @@
+.headerPart {
+  display: none !important;
+}
+
+#footerPart {
+  display: none !important;
+}
+
+/*  */
+.formCenter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cardForm {
+  padding: 4%;
+  width: 100%;
+}
+
+.backgroundWhite {
+  height: 1058px;
+  background: #fff;
+  border-radius: 30px;
+}
+
+.leftCardForm {
+  padding: 45px;
+  width: 100%;
+}
+
+.cardForm label {
+  color: #848484;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.formCenter .cardForm input {
+  border-radius: 6px !important;
+  border: 1px solid var(--stayable_border, #d8d8d8) !important;
+  background: #fff !important;
+  color: #012a59 !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+/* .cardForm ::placeholder {
+  color: #012a59 !important;
+} */
+
+.checkBox {
+  width: 20px;
+  height: 20px;
+}
+
+label.extraSmall {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.linkText a {
+  color: #1877f2;
+  display: inline;
+}
+
+.textArea::placeholder {
+  color: #000000;
+}
+
+.mainCard {
+  padding: 45px;
+  border: 1px dashed #D9D9D9;
+  border-radius: 10px;
+}
+
+.dayDiamond {
+  border-radius: 10px;
+  border: 1px solid #D8D8D8;
+  background: #FFF;
+  padding: 10px 23px;
+}
+
+.flexDays {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #4F4F4F;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ant-divider.dased {
+  border: 1px dashed #D9D9D9;
+}
+
+@media (max-width: 1800px) {
+  .cardForm {
+    padding: 2%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .cardForm {
+    padding: 1%;
+  }
+}
+
+@media (max-width: 991px) {
+  .cardForm {
+    padding: 30px;
+  }
+
+  .leftCardForm {
+    padding: 10px;
+  }
+
+  .backgroundWhite {
+    height: unset;
+    margin-top: 50px;
+  }
+
+  .cardForm label {
+    font-size: 14px;
+  }
+
+  .formCenter .cardForm input {
+    font-size: 16px !important;
+  }
+}

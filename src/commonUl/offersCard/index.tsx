@@ -30,7 +30,7 @@ export default function OffersCard() {
         <div className="marginTopOne"></div>
 
         <ParaText size="medium" color="mediumDark">
-          <span className="yellowBack">4.6/5</span> &nbsp; (166 reviews)
+          <span className="yellowBackground">4.6/5</span> &nbsp; (166 reviews)
         </ParaText>
         <div className="marginTopOne"></div>
         <ParaText size="medium" color="mediumDark">

@@ -22,7 +22,7 @@ export default function TodayBookingCardBackground() {
             </div>
           </Col>
           <Col lg={16} md={16} sm={16} xs={16}>
-            <ParaText size="small" color="light" className="weight500">
+            <ParaText size="small" color="light">
               <b>It is a long established fact that a reader.</b>
             </ParaText>
             <br />

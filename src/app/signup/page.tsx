@@ -32,7 +32,7 @@ export default function page() {
                       />
                     </div>
                     <div className="marginTopFour"></div>
-                    <Titles level={6} color="yellowText">
+                    <Titles level={5} color="yellowText">
                       Welcome To, Stayable
                     </Titles>
                     <div className="marginTopOne"></div>
@@ -89,16 +89,13 @@ export default function page() {
                       </Col>
                     </Row>
                     <div className="marginTopTwo"></div>
-                    <label className="extraSmall dFlex align">
+                    <label className="extraSmall flexContainer align">
                       <input type="checkbox" className="checkBox" /> &nbsp; I
                       agree to the Terms & Policy
                     </label>
 
                     <div className="marginTopThree"></div>
-                    <SecondaryButton
-                      label="SIGN UP"
-                      className="largeButton w100"
-                    />
+                    <SecondaryButton label="SIGN UP" className="w100" />
                     <div className="marginTopThree"></div>
                     <div className="or">or</div>
                     <div className="marginTopThree"></div>

@@ -45,7 +45,7 @@ export default function BannerForm() {
               >
                 <SecondaryButton
                   label="Find A Room"
-                  className={`mediumButtonHome w100 ${styles.SubscribeButton}`}
+                  className={`w100 ${styles.SubscribeButton}`}
                 />
               </Col>
             </Row>

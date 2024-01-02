@@ -43,61 +43,58 @@ export default function page() {
                 </Col>
               </Row>
               <div className="marginTopThree"></div>
-              <ParaText size="small" className="redText">
+              <ParaText size="small" className="redTextColor">
                 <i>*Indicate Mandatory fields</i>
               </ParaText>
               <div className="marginTopThree">
-                <label className="weight600">Name*</label>
+                <label>Name*</label>
                 <FormInput placeHolder="Enter your full name here" />
 
                 <Row gutter={16} className="marginTopTwo">
                   <Col lg={12} md={12} sm={12} xs={24}>
-                    <label className="weight600">
-                      Email Address <span className="redText">*</span>
+                    <label>
+                      Email Address <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Enter yoeg. 1235@xyz.com" />
                   </Col>
                   <Col lg={12} md={12} sm={12} xs={24}>
-                    <label className="weight600">
-                      Mobile no. <span className="redText">*</span>
+                    <label>
+                      Mobile no. <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Enter yoeg. 1235@xyz.com" />
                   </Col>
                 </Row>
 
                 <div className="marginTopTwo"></div>
-                <label className="weight600">
-                  Contary <span className="redText">*</span>
+                <label>
+                  Contary <span className="redTextColor">*</span>
                 </label>
                 <FormInput placeHolder="Select" />
                 <Row gutter={16} className="marginTopTwo">
                   <Col lg={12} md={12} sm={12} xs={24}>
-                    <label className="weight600">
-                      Select State <span className="redText">*</span>
+                    <label>
+                      Select State <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Select" />
                   </Col>
                   <Col lg={12} md={12} sm={12} xs={24}>
-                    <label className="weight600">
-                      Pin Code <span className="redText">*</span>
+                    <label>
+                      Pin Code <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="eg.000000" />
                   </Col>
                 </Row>
 
                 <div className="marginTopTwo"></div>
-                <label className="weight600">Address</label>
+                <label>Address</label>
                 <ReviewTextarea />
 
                 <div className="marginTopTwo"></div>
-                <label className="weight600">Message/Issue *</label>
+                <label>Message/Issue *</label>
                 <ReviewTextarea />
 
                 <div className="marginTopTwo"></div>
-                <SecondaryButton
-                  label="Submit Information"
-                  className="mediumButton w100"
-                />
+                <SecondaryButton label="Submit Information" className="w100" />
               </div>
             </Col>
             <Col lg={12} md={12} sm={12} xs={24}>
@@ -135,8 +132,7 @@ export default function page() {
 
               <div className="marginTopTwo"></div>
               <ParaText size="small">
-                <b>                  height="600"
-
+                <b>
                   <Image
                     src="/images/Rectangle-5.png"
                     alt="Mask Group"

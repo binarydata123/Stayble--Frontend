@@ -166,9 +166,9 @@ export default function Footer() {
                 md={12}
                 sm={12}
                 xs={24}
-                className="mobileMarginTopOne textEnd MobileViewLeft"
+                className="mobileMarginTopOne textEnd mobileViewLeft"
               >
-                <div className="dFlex align">
+                <div className="flexContainer align">
                   <ParaText size="small" color="light">
                     Follow us
                   </ParaText>
