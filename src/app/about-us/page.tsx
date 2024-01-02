@@ -100,7 +100,6 @@ export default function page() {
               <div className="marginBottomFive "></div>
               <SecondaryButton
                 label="Explore Our Locations"
-                className="largeButton "
               />
             </Col>
           </Row>

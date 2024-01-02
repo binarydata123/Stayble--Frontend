@@ -47,18 +47,18 @@ export default function page() {
                 <i>*Indicate Mandatory fields</i>
               </ParaText>
               <div className="marginTopThree">
-                <label className="weight600">Name*</label>
+                <label>Name*</label>
                 <FormInput placeHolder="Enter your full name here" />
 
                 <Row gutter={16} className="marginTopTwo">
                   <Col lg={12} md={12} sm={12} xs={24}>
-                    <label className="weight600">
+                    <label>
                       Email Address <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Enter yoeg. 1235@xyz.com" />
                   </Col>
                   <Col lg={12} md={12} sm={12} xs={24}>
-                    <label className="weight600">
+                    <label>
                       Mobile no. <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Enter yoeg. 1235@xyz.com" />
@@ -66,19 +66,19 @@ export default function page() {
                 </Row>
 
                 <div className="marginTopTwo"></div>
-                <label className="weight600">
+                <label>
                   Contary <span className="redTextColor">*</span>
                 </label>
                 <FormInput placeHolder="Select" />
                 <Row gutter={16} className="marginTopTwo">
                   <Col lg={12} md={12} sm={12} xs={24}>
-                    <label className="weight600">
+                    <label>
                       Select State <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Select" />
                   </Col>
                   <Col lg={12} md={12} sm={12} xs={24}>
-                    <label className="weight600">
+                    <label>
                       Pin Code <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="eg.000000" />
@@ -86,11 +86,11 @@ export default function page() {
                 </Row>
 
                 <div className="marginTopTwo"></div>
-                <label className="weight600">Address</label>
+                <label>Address</label>
                 <ReviewTextarea />
 
                 <div className="marginTopTwo"></div>
-                <label className="weight600">Message/Issue *</label>
+                <label>Message/Issue *</label>
                 <ReviewTextarea />
 
                 <div className="marginTopTwo"></div>

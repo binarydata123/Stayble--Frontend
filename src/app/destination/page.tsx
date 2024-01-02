@@ -527,7 +527,7 @@ export default function Destination() {
                 </Col>
                 <Divider />
 
-                <ParaText size="medium" color="paraGraf" className="weight600">
+                <ParaText size="medium" color="paraGraf">
                   Gallery
                 </ParaText>
                 <div className="marginTopOne"></div>
@@ -571,11 +571,7 @@ export default function Destination() {
                   </Row>
 
                   <div className={styles.dateStyle}>
-                    <ParaText
-                      size="large"
-                      color="neutralColor"
-                      className="weight600"
-                    >
+                    <ParaText size="large" color="neutralColor">
                       Date
                     </ParaText>
                     <DatePickerDesign />
@@ -584,11 +580,7 @@ export default function Destination() {
                   <div className={styles.dateStyle}>
                     <Row align="middle">
                       <Col lg={12}>
-                        <ParaText
-                          size="large"
-                          color="neutralColor"
-                          className="weight600"
-                        >
+                        <ParaText size="large" color="neutralColor">
                           Adults
                         </ParaText>
                         <br />
@@ -604,11 +596,7 @@ export default function Destination() {
                   <div className={styles.dateStyle}>
                     <Row align="middle">
                       <Col lg={12}>
-                        <ParaText
-                          size="large"
-                          color="neutralColor"
-                          className="weight600"
-                        >
+                        <ParaText size="large" color="neutralColor">
                           Childern
                         </ParaText>
                         <br />
@@ -624,11 +612,7 @@ export default function Destination() {
                   <div className={styles.dateStyle}>
                     <Row align="middle">
                       <Col lg={24}>
-                        <ParaText
-                          size="large"
-                          color="neutralColor"
-                          className="weight600"
-                        >
+                        <ParaText size="large" color="neutralColor">
                           Room
                         </ParaText>
                         <br />
@@ -641,11 +625,7 @@ export default function Destination() {
                   <br />
                   <Row align="middle">
                     <Col lg={24}>
-                      <ParaText
-                        size="large"
-                        color="neutralColor"
-                        className="weight600"
-                      >
+                      <ParaText size="large" color="neutralColor">
                         Extra Services
                       </ParaText>
                       <br />

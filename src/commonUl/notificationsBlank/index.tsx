@@ -14,7 +14,7 @@ export default function NotificationsBlank() {
         <div className="textCenter marginTopThree">
           <IoNotificationsOffOutline className={styles.notificationsNone} />
           <br />
-          <ParaText size="small" color="mediumDark" className="weight700">
+          <ParaText size="small" color="mediumDark">
             No New Notifications
           </ParaText>
           <br />

@@ -10,7 +10,7 @@ export default function CollapsePanel() {
         <Row>
           <Col xl={24} md={24} sm={24} xs={24}>
             <div className={styles.collapsePanelBox}>
-              <ParaText size="small" color="paraGraf" className="weight600">
+              <ParaText size="small" color="paraGraf">
                 What are your office hours?
               </ParaText>
               <br />

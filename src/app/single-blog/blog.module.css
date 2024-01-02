@@ -53,10 +53,6 @@
   margin-top: 15px;
 }
 
-.paddingLeftTwenty {
-  padding-left: 20px;
-}
-
 .article h5 {
   font-style: italic !important;
 }
@@ -136,10 +132,6 @@
 
   .latestBlog {
     padding: 0px;
-  }
-
-  .paddingLeftTwenty {
-    padding-left: 0px;
   }
 
   .article {

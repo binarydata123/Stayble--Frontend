@@ -20,7 +20,7 @@ export default function RoomsCard() {
             <HiOutlineDotsVertical />
           </Col>
         </Row>
-        <ParaText size="extraSmall" color="mediumDark" className="weight500">
+        <ParaText size="extraSmall" color="mediumDark">
           Single sharing
         </ParaText>
         <br />

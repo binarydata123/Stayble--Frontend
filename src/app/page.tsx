@@ -32,7 +32,7 @@ export default function Home() {
               <Titles
                 level={5}
                 color="light"
-                className="weight400 mobileViewNone"
+                className="mobileViewNone"
               >
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.

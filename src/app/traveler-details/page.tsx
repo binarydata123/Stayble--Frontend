@@ -72,10 +72,7 @@ export default function page() {
                     />
 
                     <div className="marginTopThree"></div>
-                    <SecondaryButton
-                      label="Continue"
-                      className="largeButton w100"
-                    />
+                    <SecondaryButton label="Continue" className="w100" />
                   </div>
                 </div>
               </div>

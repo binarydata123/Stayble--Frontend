@@ -27,11 +27,7 @@ export default function SingleBlog() {
                 </Titles>
                 <div className="flex marginTopFive">
                   <Image src="/images/user.png" alt="" />
-                  <ParaText
-                    size="medium"
-                    color="light"
-                    className="paddingLeftTwenty"
-                  >
+                  <ParaText size="medium" color="light">
                     George Costanza
                   </ParaText>
                 </div>
@@ -323,11 +319,7 @@ export default function SingleBlog() {
                     <br />
                     <ShowImage size={100} src="/images/icon/bgImage.png" />
                     <div className={styles.overLayText}>
-                      <ParaText
-                        size="medium"
-                        color="light"
-                        className="weight600"
-                      >
+                      <ParaText size="medium" color="light">
                         10 Habits That Will Change Your Live for the Better If
                         envy and jealousy are impacting your friendships
                       </ParaText>
@@ -346,13 +338,9 @@ export default function SingleBlog() {
                     </div>
                   </div>
 
-                  <div className={styles.paddingLeftTwenty}>
+                  <div>
                     <div className={styles.paddingFiftyTopSmall}></div>
-                    <ParaText
-                      size="medium"
-                      color="neutralColor"
-                      className="weight600"
-                    >
+                    <ParaText size="medium" color="neutralColor">
                       10 Habits That Will Change Your Live for the Better If
                       envy and jealousy are impacting your friendships
                     </ParaText>
@@ -360,7 +348,7 @@ export default function SingleBlog() {
                     <ParaText
                       size="extraSmall"
                       color="colordark"
-                      className="flex weight600"
+                      className="flex"
                     >
                       <span className={styles.date}> June 21,2022</span>
                       <span className={styles.line1}></span>
@@ -368,11 +356,7 @@ export default function SingleBlog() {
                       <span className={styles.time}>2 minute read</span>
                     </ParaText>
                     <div className={styles.paddingFiftyTopSmall}></div>
-                    <ParaText
-                      size="medium"
-                      color="neutralColor"
-                      className="weight600"
-                    >
+                    <ParaText size="medium" color="neutralColor">
                       10 Habits That Will Change Your Live for the Better If
                       envy and jealousy are impacting your friendships
                     </ParaText>
@@ -380,7 +364,7 @@ export default function SingleBlog() {
                     <ParaText
                       size="extraSmall"
                       color="colordark"
-                      className="flex weight600"
+                      className="flex"
                     >
                       <span className={styles.date}> June 21,2022</span>
                       <span className={styles.line1}></span>
@@ -388,11 +372,7 @@ export default function SingleBlog() {
                       <span className={styles.time}>2 minute read</span>
                     </ParaText>
                     <div className={styles.paddingFiftyTopSmall}></div>
-                    <ParaText
-                      size="medium"
-                      color="neutralColor"
-                      className="weight600"
-                    >
+                    <ParaText size="medium" color="neutralColor">
                       10 Habits That Will Change Your Live for the Better If
                       envy and jealousy are impacting your friendships
                     </ParaText>
@@ -400,7 +380,7 @@ export default function SingleBlog() {
                     <ParaText
                       size="extraSmall"
                       color="colordark"
-                      className="flex weight600"
+                      className="flex"
                     >
                       <span className={styles.date}> June 21,2022</span>
                       <span className={styles.line1}></span>
@@ -420,11 +400,7 @@ export default function SingleBlog() {
                       </Col>
                       <Col xxl={18} xl={18} lg={18} md={18} sm={24} xs={24}>
                         <div className={styles.onlineUserImage}>
-                          <Titles
-                            level={5}
-                            color="neutralColor"
-                            className={styles.paddingLeftTwenty}
-                          >
+                          <Titles level={5} color="neutralColor">
                             Integer Maecenas Eget Viverra
                           </Titles>
                         </div>
@@ -442,11 +418,7 @@ export default function SingleBlog() {
                       </Col>
                       <Col xxl={18} xl={18} lg={18} md={18} sm={24} xs={24}>
                         <div className={styles.onlineUserImage}>
-                          <Titles
-                            level={5}
-                            color="neutralColor"
-                            className={styles.paddingLeftTwenty}
-                          >
+                          <Titles level={5} color="neutralColor">
                             A Pretium Enim Dolor Donec Eu Venenatis Curabitur
                           </Titles>
                         </div>
@@ -464,11 +436,7 @@ export default function SingleBlog() {
                       </Col>
                       <Col xxl={18} xl={18} lg={18} md={18} sm={24} xs={24}>
                         <div className={styles.onlineUserImage}>
-                          <Titles
-                            level={5}
-                            color="neutralColor"
-                            className={styles.paddingLeftTwenty}
-                          >
+                          <Titles level={5} color="neutralColor">
                             A Pretium Enim Dolor Donec Eu Venenatis Curabitur
                           </Titles>
                         </div>
@@ -486,11 +454,7 @@ export default function SingleBlog() {
                       </Col>
                       <Col xxl={18} xl={18} lg={18} md={18} sm={24} xs={24}>
                         <div className={styles.onlineUserImage}>
-                          <Titles
-                            level={5}
-                            color="neutralColor"
-                            className={styles.paddingLeftTwenty}
-                          >
+                          <Titles level={5} color="neutralColor">
                             Integer Maecenas Eget Viverra
                           </Titles>
                         </div>
@@ -508,11 +472,7 @@ export default function SingleBlog() {
                       </Col>
                       <Col xxl={18} xl={18} lg={18} md={18} sm={24} xs={24}>
                         <div className={styles.onlineUserImage}>
-                          <Titles
-                            level={5}
-                            color="neutralColor"
-                            className={styles.paddingLeftTwenty}
-                          >
+                          <Titles level={5} color="neutralColor">
                             Integer Maecenas Eget Viverra
                           </Titles>
                         </div>
