@@ -24,7 +24,7 @@ export default function CardLocations() {
             Orlando Awaits
           </Titles>
           <div className="marginBottomOne"></div>
-          <SecondaryButton label="Book Now" className="smallButton" />
+          <SecondaryButton label="Book Now" />
         </div>
       </div>
     </>

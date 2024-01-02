@@ -5,7 +5,6 @@ import React from "react";
 import ParaText from "@/commonUl/ParaText";
 import LocationsCard from "@/commonUl/LocationsCard";
 import styles from "./homePage.module.css";
-import CollapsePanel from "@/commonUl/CollapsePanel";
 import ViewAll from "@/components/Public/ViewAll";
 import CardLocations from "@/components/Public/CardLocations/page";
 import NewsLatest from "@/components/Public/NewsLatest/page";

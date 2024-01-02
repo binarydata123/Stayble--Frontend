@@ -1,21 +1,28 @@
 "use client";
-import { Col, Image, Row } from "antd";
+import { Col, Divider, Image, Row } from "antd";
 import React from "react";
 import "./traveler-details.css";
 import Titles from "@/commonUl/Titles";
 import ParaText from "@/commonUl/ParaText";
 import FormInput from "@/commonUl/FormInput";
 import SecondaryButton from "@/commonUl/SecondaryButton";
-import Link from "next/link";
+import { Input } from "antd";
+import ShowImage from "@/commonUl/ShowImage";
+import { FaUserGroup } from "react-icons/fa6";
+import { MdOutlineDateRange } from "react-icons/md";
+import { FiHome } from "react-icons/fi";
+const { TextArea } = Input;
 export default function page() {
   return (
     <>
       <div className="formPart">
         <div className="mainContainer">
-          <Row gutter={40}>
+          <Divider />
+          <Row gutter={14}>
             <Col lg={12} md={24} xs={24}>
               <div className="formCenter backgroundWhite">
                 <div className="cardForm">
+                  <div className="lineBox blue"></div>
                   <Titles level={3} color="neutralColor">
                     traveler details
                   </Titles>
@@ -44,16 +51,90 @@ export default function page() {
                       </Col>
                     </Row>
                     <div className="marginTopThree"></div>
-                    <label className="extraSmall dFlex align">
-                      <input type="checkbox" className="checkBox" /> &nbsp; I
-                      agree to the Terms & Policy
+                    <label className="extraSmall flexContainer align">
+                      <input type="checkbox" className="checkBox" /> &nbsp;
+                      <a href="#">I’m booking for someone else.</a>
                     </label>
+                    <div className="marginTopThree"></div>
+                    <Titles level={5} color="neutralColor">
+                      Any special requests or query
+                    </Titles>
+                    <div className="marginTopThree"></div>
+                    <ParaText size="medium" color="mediumDark">
+                      Add your special request or query here
+                    </ParaText>
+                    <div className="marginTopOne"></div>
+                    <TextArea
+                      rows={10}
+                      placeholder="Write a text"
+                      maxLength={6}
+                      className="textArea"
+                    />
 
                     <div className="marginTopThree"></div>
                     <SecondaryButton
                       label="Continue"
                       className="largeButton w100"
                     />
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col lg={12} md={24} xs={24}>
+              <div className="formCenter">
+                <div className="cardForm">
+                  <ShowImage size={100} src="/images/card/card.png" />
+                  <div className="mainCard">
+                    <div className="lineBox blue"></div>
+                    <Titles level={5} color="neutralColor">
+                      5-Day Oahu Tour: Honolulu, Pearl Harbor, & Diamond Head
+                      Galnesville
+                    </Titles>
+                    <div className="marginTopTwo"></div>
+                    <div className="dayDiamond">
+                      <p className="flexDays">
+                        <span>
+                          <MdOutlineDateRange
+                            style={{ color: "#4F4F4F", marginRight: "10px" }}
+                          />
+                          Dec 28, 2023 - Jan 5, 2024
+                        </span>
+                        <span>5 days/4 nights</span>
+                      </p>
+                    </div>
+                    <p className="flexDays">
+                      <span>
+                        <FaUserGroup
+                          style={{ color: "#4F4F4F", marginRight: "10px" }}
+                        />
+                        Adults 2, Children 1
+                      </span>
+                    </p>
+                    <p className="flexDays">
+                      <span>
+                        <FiHome
+                          style={{ color: "#4F4F4F", marginRight: "10px" }}
+                        />
+                        King type
+                      </span>
+                    </p>
+                    <Divider className="dased" />
+                    <p className="flexDays">
+                      <span>
+                        <FaUserGroup
+                          style={{ color: "#4F4F4F", marginRight: "10px" }}
+                        />
+                        Adults 2, Children 1
+                      </span>
+                    </p>
+                    <p className="flexDays">
+                      <span>
+                        <FiHome
+                          style={{ color: "#4F4F4F", marginRight: "10px" }}
+                        />
+                        King type
+                      </span>
+                    </p>
                   </div>
                 </div>
               </div>

@@ -89,7 +89,7 @@ export default function page() {
                       </Col>
                     </Row>
                     <div className="marginTopTwo"></div>
-                    <label className="extraSmall dFlex align">
+                    <label className="extraSmall flexContainer align">
                       <input type="checkbox" className="checkBox" /> &nbsp; I
                       agree to the Terms & Policy
                     </label>

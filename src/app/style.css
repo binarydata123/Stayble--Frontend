@@ -2,14 +2,6 @@
   font-size: 24px !important;
 }
 
-.mediumButton {
-  font-size: 20px !important;
-}
-
-.smallButton {
-  font-size: 18px !important;
-}
-
 .ant-image .ant-image-mask:hover {
   opacity: 0 !important;
 }
@@ -18,7 +10,7 @@
   color: #4378b4 !important;
 }
 
-.yellowBack {
+.yellowBackground {
   border-radius: 5px;
   background: #ffe70f;
   color: #012a59;
@@ -27,18 +19,6 @@
 
 .dark {
   color: #000 !important;
-}
-
-.mediumButton {
-  font-size: 20px !important;
-}
-
-.mediumButtonHome {
-  font-size: 16px !important;
-}
-
-.smallButton {
-  font-size: 18px !important;
 }
 
 .mainContainer {
@@ -68,15 +48,19 @@
 .weight400 {
   font-weight: 400 !important;
 }
+
 .weight500 {
   font-weight: 500 !important;
 }
+
 .weight600 {
   font-weight: 600 !important;
 }
+
 .weight700 {
   font-weight: 700 !important;
 }
+
 .paddingLeftTwenty {
   padding-left: 20px;
 }
@@ -163,48 +147,60 @@ span b {
   margin-bottom: 0 !important;
 }
 
+/* smallMargin */
 .marginTopOne {
   margin-top: 10px;
 }
 
+/* mediumMargin */
 .marginTopTwo {
   margin-top: 20px;
 }
 
+/* largeMargin */
 .marginTopThree {
   margin-top: 30px;
 }
 
+/* extraLargeMargin */
 .marginTopFour {
   margin-top: 40px;
 }
 
+/*LargerMargin */
 .marginTopFive {
   margin-top: 50px;
 }
 
+/* smallMarginBottom */
 .marginBottomOne {
   margin-bottom: 10px;
 }
 
+/* mediumMarginBottom */
 .marginBottomTwo {
   margin-bottom: 20px;
 }
 
+/* largeMarginBottom */
 .marginBottomThree {
   margin-bottom: 30px;
 }
 
+/* extraLargeMarginBottom */
 .marginBottomFour {
   margin-bottom: 40px;
 }
 
+/* extraLargeMarginBottom */
 .marginBottomFive {
   margin-bottom: 50px;
 }
+
 .marginTopHalf {
   margin-top: 5px;
 }
+
 .img100 .ant-image {
   width: 100% !important;
 }
@@ -212,23 +208,29 @@ span b {
 .imgRound img {
   border-radius: 12px;
 }
+
 .borderRadius10 {
   border-radius: 14px;
 }
+
 .borderRadius10 img {
   border-radius: 14px;
 }
+
 .borderRadius100 img {
   border-radius: 100px;
 }
+
 .starReview svg {
   font-size: 20px;
   padding: 0 2px;
   color: #ffc107;
 }
+
 .textGraf12 {
   font-size: 12px !important;
 }
+
 .textGraf12 svg {
   font-size: 12px;
   position: relative;
@@ -255,17 +257,13 @@ span b {
   align-items: center;
 }
 
-.dFlex {
+.flexContainer {
   display: flex !important;
 }
 
-#footerPart .dFlex.align {
+#footerPart .flexContainer.align {
   gap: 30px;
   justify-content: end;
-}
-
-.redText {
-  color: #f91d1d !important;
 }
 
 .heightUnset {
@@ -292,7 +290,7 @@ span b {
   margin: 0 auto !important;
 }
 
-.redText {
+.redTextColor {
   color: #f91d1d !important;
 }
 
@@ -404,7 +402,7 @@ span b {
     text-align: center;
   }
 
-  #footerPart .dFlex.align {
+  #footerPart .flexContainer.align {
     justify-content: center;
   }
 

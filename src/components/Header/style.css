@@ -20,14 +20,16 @@ ul.navBar li a {
   font-weight: 400;
   padding-left: 30px;
 }
+
 .headerButton button {
   padding: 15px 30px !important;
 }
+
 .headerBtn {
   margin-top: 3px;
 }
 
-.textEndFlex {
+.textEnflexContainer {
   text-align: right;
   display: flex;
   align-items: center;
@@ -102,9 +104,11 @@ ul.navBar li a {
     top: 5px;
     padding: 6px;
   }
+
   .closeBar.open {
     top: 0;
   }
+
   .open {
     position: absolute;
     right: 0;
@@ -116,12 +120,15 @@ ul.navBar li a {
     padding: 17px;
     width: 90%;
   }
+
   .logoMain {
     margin: 0 0 -60px 0;
   }
+
   ul.navBar {
     padding: 0;
   }
+
   ul.navBar li a {
     font-size: 20px;
     line-height: 30.24px;
@@ -138,6 +145,7 @@ ul.navBar li a {
   ul.navBar {
     margin-top: 20px;
   }
+
   .logoMain img {
     width: 140px !important;
     height: 53px !important;

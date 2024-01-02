@@ -43,7 +43,7 @@ export default function page() {
                 </Col>
               </Row>
               <div className="marginTopThree"></div>
-              <ParaText size="small" className="redText">
+              <ParaText size="small" className="redTextColor">
                 <i>*Indicate Mandatory fields</i>
               </ParaText>
               <div className="marginTopThree">
@@ -53,13 +53,13 @@ export default function page() {
                 <Row gutter={16} className="marginTopTwo">
                   <Col lg={12} md={12} sm={12} xs={24}>
                     <label className="weight600">
-                      Email Address <span className="redText">*</span>
+                      Email Address <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Enter yoeg. 1235@xyz.com" />
                   </Col>
                   <Col lg={12} md={12} sm={12} xs={24}>
                     <label className="weight600">
-                      Mobile no. <span className="redText">*</span>
+                      Mobile no. <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Enter yoeg. 1235@xyz.com" />
                   </Col>
@@ -67,19 +67,19 @@ export default function page() {
 
                 <div className="marginTopTwo"></div>
                 <label className="weight600">
-                  Contary <span className="redText">*</span>
+                  Contary <span className="redTextColor">*</span>
                 </label>
                 <FormInput placeHolder="Select" />
                 <Row gutter={16} className="marginTopTwo">
                   <Col lg={12} md={12} sm={12} xs={24}>
                     <label className="weight600">
-                      Select State <span className="redText">*</span>
+                      Select State <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="Select" />
                   </Col>
                   <Col lg={12} md={12} sm={12} xs={24}>
                     <label className="weight600">
-                      Pin Code <span className="redText">*</span>
+                      Pin Code <span className="redTextColor">*</span>
                     </label>
                     <FormInput placeHolder="eg.000000" />
                   </Col>
@@ -94,10 +94,7 @@ export default function page() {
                 <ReviewTextarea />
 
                 <div className="marginTopTwo"></div>
-                <SecondaryButton
-                  label="Submit Information"
-                  className="mediumButton w100"
-                />
+                <SecondaryButton label="Submit Information" className="w100" />
               </div>
             </Col>
             <Col lg={12} md={12} sm={12} xs={24}>
