@@ -1,0 +1,9 @@
+.leaveButton {
+  border-radius: 16px;
+  border: 1px solid #e8f1fd;
+  background: #e8f1fd;
+  color: #448df2;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 2px 8px;
+}

@@ -92,7 +92,9 @@
 span b {
   font-weight: 600;
 }
-
+.gap {
+  gap: 10px;
+}
 .mainGap {
   padding: 60px 0;
 }

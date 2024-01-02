@@ -1,0 +1,9 @@
+.viewDetail {
+  border-radius: 16px;
+  border: 1px solid #747474;
+  background: #eee;
+  color: #2c2c2c;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 8px;
+}
