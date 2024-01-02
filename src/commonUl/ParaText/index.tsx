@@ -19,7 +19,8 @@ interface CustomTextProps {
     | "paraGraf"
     | "colordark"
     | "blueColor"
-    | "darkgray";
+    | "darkgray"
+    | "lightBlue";
 }
 
 const ParaText = ({
@@ -97,6 +98,8 @@ const ParaText = ({
               ? "#646464"
               : color == "darkgraydark"
               ? "#6C757D"
+              : color == "lightBlue"
+              ? "#0070F5"
               : color == "paraGraf"
               ? "#121416"
               : color == "blueColor"

@@ -10,6 +10,13 @@ import TodayBookingCardBackground from "@/commonUl/todayBookingCardBackground";
 import TopBar from "@/commonUl/topBar";
 import Switch from "@/commonUl/Switch";
 import NotificationsBlank from "@/commonUl/notificationsBlank";
+import Table from "@/commonUl/tableData";
+import LeaveButton from "@/commonUl/leaveButton";
+import NotAvailableButton from "@/commonUl/notAvailableButton";
+import OnShiftButton from "@/commonUl/onShiftButton";
+import PickupButton from "@/commonUl/pickupButton";
+import ViewDetailButton from "@/commonUl/ViewDetailButton";
+import FreeButton from "@/commonUl/freeButton";
 
 export default function page() {
   return (
@@ -38,9 +45,23 @@ export default function page() {
             </Col>
             <Col lg={7} md={24} xs={24}>
               <NotificationsBlank />
+              <br />
+              <LeaveButton />
+              <div className="marginTopTwo"> </div>
+              <NotAvailableButton />
+              <div className="marginTopTwo"> </div>
+              <OnShiftButton />
+              <div className="marginTopTwo"> </div>
+              <PickupButton />
+              <div className="marginTopTwo"> </div>
+              <FreeButton />
+              <div className="marginTopTwo"> </div>
+              <ViewDetailButton />
             </Col>
             <Col lg={3} md={24} xs={24}></Col>
           </Row>
+          <div className="marginTopFour"> </div>
+          <Table />
         </div>
       </div>
     </>

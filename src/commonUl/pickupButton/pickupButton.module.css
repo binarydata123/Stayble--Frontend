@@ -1,0 +1,9 @@
+.pickupButton {
+  border-radius: 16px;
+  border: 1px solid #fef4e6;
+  background: #fef4e6;
+  color: #f9a63a;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 2px 8px;
+}

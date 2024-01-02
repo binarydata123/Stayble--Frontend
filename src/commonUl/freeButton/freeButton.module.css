@@ -1,0 +1,13 @@
+.freeButton {
+  border-radius: 16px;
+  border: 1px solid #f0d05c;
+  background: #fff7e1;
+  color: #d57b11;
+  font-size: 12px;
+  padding: 4px 8px;
+  font-weight: 600;
+}
+.freeButton img {
+  margin-left: 3px;
+  margin-top: -3px;
+}

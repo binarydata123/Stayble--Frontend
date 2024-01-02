@@ -1,0 +1,9 @@
+.onShiftButton {
+  border-radius: 16px;
+  border: 1px solid #e7f8f0;
+  background: #e7f8f0;
+  color: #41c588;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 2px 8px;
+}

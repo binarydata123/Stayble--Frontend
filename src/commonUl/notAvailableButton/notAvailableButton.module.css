@@ -1,0 +1,9 @@
+.notAvailableButton {
+  border-radius: 16px;
+  border: 1px solid #feeceb;
+  background: #feeceb;
+  color: #f36960;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 2px 8px;
+}
